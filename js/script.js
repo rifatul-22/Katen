@@ -1,7 +1,7 @@
 $(function(){
     $('.insp_slider').slick({
         slidesToShow: 2,
-        arrows: false,
+        arrows: true,
         prevArrow:$('.inspiration_slick_icon_btn.prev'),
         nextArrow:$('.inspiration_slick_icon_btn.next')
     });
@@ -14,4 +14,9 @@ $(function(){
         prevArrow:$('.celebration_slider_icon_btn.prev'),
         nextArrow:$('.celebration_slider_icon_btn.next')
     });
+
+    $('.nav_tabs_control li button').on('click', function(){
+        $(this).addClass('post_active');
+        $(this).siblings().removeClass('post_active');  
+    })
 });

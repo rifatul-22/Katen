@@ -78,409 +78,467 @@
             </div>
             <div class="navber_button">
                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-               <button><i class="fa-solid fa-equals"></i></button>
+               <!-- <button><i class="fa-solid fa-equals"></i></button> -->
+               <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-equals"></i></button>
+
+               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                        <!-- <h5 id="offcanvasRightLabel"><i class="fa-solid fa-equals"></i></h5> -->
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-close"></i></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      
+                  </div>
+               </div>
             </div>
           </div>
         </div>
-      </nav>
+    </nav>
     <!-- nav section end  -->
     <!-- Blog section start  -->
     <section id="blog">
        <div class="container">
           <div class="row">
-              <a href="#">
-                <div class="col-lg-8 blog_thum"> 
+            <div class="col-lg-8"> 
+                 <div class="blog_thum">
+                <a href="#">
                   <div class="blog_img_item">
-                     <div class="blog_img">
-                      <img src="img/blog_img_1.jpg" alt="">
-                     </div>
-                  </div>
+                    <div class="blog_img">
+                       <!-- <a href="#"><img src="img/blog_img_1.jpg" alt=""></a> -->
+                       <img src="img/blog_img_1.jpg" alt="">
+                    </div>
+                 </div>
+                 </a>
+                 <div class="details">
+                  <a href="#" class="catagory">Inspiration</a>
+                  <h2 class="post_title"><a href="#">5 Easy Ways You Can Turn Future Into Success</a></h2>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">katen doe</a></li>
+                    <li class="list-inline-item">august 20,2022</li>
+                  </ul>
+                 </div>
+                 </div>
+                 <div class="section_header">
+                <h3 class="section_title">Editor's Pick</h3>
+                <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#FE4F70"></stop>
+                  <stop offset="100%" stop-color="#FFA387"></stop>
+                  </linearGradient>
+                  </defs>
+                  <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+                 </div>
+                 <div class="blog_thum_2 d-flex">
+                <div class="col-sm-6">
+                   <div class="blog_thum_2_img">
+                      <a href="#"><img src="img/blog_2.1.jpg" alt=""></a>
+                      <a href="#" class="lifestyle">lifestyle</a>
+                      <span><i class="fa-solid fa-image"></i></span>
+                   </div>
                    <div class="details">
-                    <a href="#" class="catagory">Inspiration</a>
-                    <h2 class="post_title"><a href="#">5 Easy Ways You Can Turn Future Into Success</a></h2>
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="#">katen doe</a></li>
-                      <li class="list-inline-item">august 20,2022</li>
-                    </ul>
-                   </div>     
+                     <ul class="list-inline">
+                       <img src="img/nick-arnot.jpg" alt="">
+                       <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                       <li class="list-inline-item">August 23, 2022</li>
+                     </ul>
+                     <h5><a href="#">Easy Ways To Learn Everything About Construction</a></h5>
+                     <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
+                   </div>
                 </div>
-              </a>
-              <div class="col-lg-8">
-                   <div class="section_header">
-                  <h3 class="section_title">Editor's Pick</h3>
-                  <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+                <div class="col-sm-6">
+                   <div class="post_blog d-flex flex-wrap">
+                       <div class="thumb">
+                          <a href="#">
+                            <div class="inner">
+                                <img src="img/post_img_1.jpg" alt="">
+                            </div>
+                          </a>
+                       </div>
+                       <div class="post_blog_details">
+                          <h6><a href="#">Facts About Business That Will Help You Success</a></h6>
+                          <span>August 23, 2022</span>
+                       </div>
+                   </div>
+                   <div class="post_blog d-flex flex-wrap">
+                       <div class="thumb">
+                          <a href="#">
+                            <div class="inner">
+                                <img src="img/post_img_2.jpg" alt="">
+                            </div>
+                          </a>
+                       </div>
+                       <div class="post_blog_details">
+                          <h6><a href="#">How To Buy Bulb On a Tight Budget</a></h6>
+                          <span>August 23, 2022</span>
+                       </div>
+                   </div>
+                   <div class="post_blog d-flex flex-wrap">
+                       <div class="thumb">
+                          <a href="#">
+                            <div class="inner">
+                                <img src="img/post_img_3.jpg" alt="">
+                            </div>
+                          </a>
+                       </div>
+                       <div class="post_blog_details">
+                          <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
+                          <span>August 19, 2022</span>
+                       </div>
+                   </div>
+                   <div class="post_blog d-flex flex-wrap">
+                       <div class="thumb">
+                          <a href="#">
+                            <div class="inner">
+                                <img src="img/post_img_4.jpg" alt="">
+                            </div>
+                          </a>
+                       </div>
+                       <div class="post_blog_details">
+                          <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
+                          <span>August 23, 2022</span>
+                       </div>
+                   </div>
+                </div>
+                 </div>
+                 <div class="add">
+                <div class="add_span text-center">
+                   <span>- Sponsored Ad -</span>
+                </div>
+                <div class="add_img">
+                   <a href="#"><img src="img/ad-750.png" alt=""></a>
+                </div>
+                 </div>
+                 <div class="section_header">
+              <h3 class="section_title">Trending</h3>
+              <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FE4F70"></stop>
+                <stop offset="100%" stop-color="#FFA387"></stop>
+                </linearGradient>
+                </defs>
+                <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+                 </div>
+                 <div class="blog_thum_2 d-flex">
+                    <div class="col-sm-6 blog_thum_2_trand g-0">
+                      <div class="blog_thum_2_img">
+                          <a href="#"><img src="img/post_blog_img_1.jpg" alt="" class="trand_img"></a>
+                          <a href="#" class="lifestyle">fashion</a>
+                          <span><i class="fa-solid fa-image"></i></span>
+                      </div>
+                      <div class="details">
+                    <ul class="list-inline">
+                      <img src="img/nick-arnot.jpg" alt="">
+                      <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                      <li class="list-inline-item">August 23, 2022</li>
+                    </ul>
+                    <h5><a href="#">Facts About Business That Will Help You Success</a></h5>
+                    <p class="para">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
+
+                 <div class="post_blog trand d-flex flex-wrap">
+                     <div class="thumb">
+                        <a href="#">
+                          <div class="inner">
+                              <img src="img/post_img_4.jpg" alt="" class="trand_img">
+                          </div>
+                        </a>
+                     </div>
+                     <div class="post_blog_details">
+                        <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
+                        <span>August 23, 2022</span>
+                     </div>
+                 </div>
+                 <div class="post_blog trand d-flex flex-wrap">
+                   <div class="thumb">
+                      <a href="#">
+                        <div class="inner">
+                            <img src="img/post_img_3.jpg" alt="">
+                        </div>
+                      </a>
+                   </div>
+                   <div class="post_blog_details">
+                      <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
+                      <span>August 19, 2022</span>
+                   </div>
+               </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 blog_thum_2_trand g-0">
+                  <div class="blog_thum_2_img">
+                     <a href="#"><img src="img/post_blog_img_2.jpg" alt="" class="trand_img"></a>
+                     <a href="#" class="lifestyle">inspiration</a>
+                     <span><i class="fa-solid fa-image"></i></span>
+                  </div>
+                  <div class="details">
+                    <ul class="list-inline">
+                      <img src="img/nick-arnot.jpg" alt="">
+                      <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                      <li class="list-inline-item">August 20, 2022</li>
+                    </ul>
+                    <h5><a href="#">5 Easy Ways You Can Turn Future Into Success</a></h5>
+                    <p class="para">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
+
+                 <div class="post_blog trand d-flex flex-wrap">
+                     <div class="thumb">
+                        <a href="#">
+                          <div class="inner">
+                              <img src="img/post_img_5.jpg" alt="">
+                          </div>
+                        </a>
+                     </div>
+                     <div class="post_blog_details">
+                        <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
+                        <span>August 23, 2022</span>
+                     </div>
+                 </div>
+                 <div class="post_blog trand d-flex flex-wrap">
+                   <div class="thumb">
+                      <a href="#">
+                        <div class="inner">
+                            <img src="img/post_img_6.jpg" alt="">
+                        </div>
+                      </a>
+                   </div>
+                   <div class="post_blog_details">
+                      <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
+                      <span>August 19, 2022</span>
+                   </div>
+               </div>
+                  </div>
+                    </div>
+                 </div>
+                 <div class="section_header">
+              <h3 class="section_title">Inspiration</h3>
+              <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FE4F70"></stop>
+                <stop offset="100%" stop-color="#FFA387"></stop>
+                </linearGradient>
+                </defs>
+                <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+
+                <div class="inspiration_slick_icon">
+                  <button class="inspiration_slick_icon_btn prev">
+                    <span class="d-inline-block"><i class="fa-solid fa-chevron-left"></i></span>
+                  </button>
+                  <button class="inspiration_slick_icon_btn next">
+                    <span class="d-inline-block"><i class="fa-solid fa-chevron-right"></i></span>
+                  </button>
+               </div>
+                 </div>
+                 <div class="insp_slider">
+                    <div class="insp_slider_item">
+                      <div class="insp_img_item">
+                        <a href="#">
+                        <div class="insp_img_thumb">
+                        <img src="img/insp_img_4.jpg" alt="">
+                        </div>
+                        </a>
+                      </div>
+                <div class="insp_details ms-4">
+                   <a href="#" class="catagory">Celebration</a>
+                   <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
+                   <ul class="list-inline">
+                     <li class="list-inline-item"><a href="#">katen doe</a></li>
+                     <li class="list-inline-item">august 20,2022</li>
+                   </ul>
+                </div>
+                    </div> 
+                   <div class="insp_slider_item">
+                <div class="insp_img_item">
+                  <a href="#">
+                   <div class="insp_img_thumb">
+                     <img src="img/insp_img_2.jpg" alt="">
+                   </div>
+                  </a>
+                </div>
+                <div class="insp_details ms-4">
+                   <a href="#" class="catagory">Celebration</a>
+                   <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
+                   <ul class="list-inline">
+                     <li class="list-inline-item"><a href="#">katen doe</a></li>
+                     <li class="list-inline-item">august 20,2022</li>
+                   </ul>
+                </div>
+                   </div> 
+                   <div class="insp_slider_item">
+                <div class="insp_img_item">
+                  <a href="#">
+                   <div class="insp_img_thumb">
+                     <img src="img/insp_img_1.jpg" alt="" class=" img-fluid">
+                   </div>
+                  </a>
+                </div>
+                <div class="insp_details ms-4">
+                   <a href="#" class="catagory">Celebration</a>
+                   <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
+                   <ul class="list-inline">
+                     <li class="list-inline-item"><a href="#">katen doe</a></li>
+                     <li class="list-inline-item">august 20,2022</li>
+                   </ul>
+                </div>
+                   </div> 
+                 </div>
+                 <div class="section_header">
+                    <h3 class="section_title">Latest Posts</h3>
+                    <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%" stop-color="#FE4F70"></stop>
                     <stop offset="100%" stop-color="#FFA387"></stop>
                     </linearGradient>
                     </defs>
-                    <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
-                   </div>
-                   <div class="blog_thum_2 d-flex">
-                  <div class="col-sm-6">
-                     <div class="blog_thum_2_img">
-                        <a href="#"><img src="img/blog_2.1.jpg" alt=""></a>
-                        <a href="#" class="lifestyle">lifestyle</a>
-                        <span><i class="fa-solid fa-image"></i></span>
-                     </div>
-                     <div class="details">
-                       <ul class="list-inline">
-                         <img src="img/nick-arnot.jpg" alt="">
-                         <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                         <li class="list-inline-item">August 23, 2022</li>
-                       </ul>
-                       <h5><a href="#">Easy Ways To Learn Everything About Construction</a></h5>
-                       <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
-                     </div>
-                  </div>
-                  <div class="col-sm-6">
-                     <div class="post_blog d-flex flex-wrap">
-                         <div class="thumb">
-                            <a href="#">
-                              <div class="inner">
-                                  <img src="img/post_img_1.jpg" alt="">
-                              </div>
-                            </a>
-                         </div>
-                         <div class="post_blog_details">
-                            <h6><a href="#">Facts About Business That Will Help You Success</a></h6>
-                            <span>August 23, 2022</span>
-                         </div>
-                     </div>
-                     <div class="post_blog d-flex flex-wrap">
-                         <div class="thumb">
-                            <a href="#">
-                              <div class="inner">
-                                  <img src="img/post_img_2.jpg" alt="">
-                              </div>
-                            </a>
-                         </div>
-                         <div class="post_blog_details">
-                            <h6><a href="#">How To Buy Bulb On a Tight Budget</a></h6>
-                            <span>August 23, 2022</span>
-                         </div>
-                     </div>
-                     <div class="post_blog d-flex flex-wrap">
-                         <div class="thumb">
-                            <a href="#">
-                              <div class="inner">
-                                  <img src="img/post_img_3.jpg" alt="">
-                              </div>
-                            </a>
-                         </div>
-                         <div class="post_blog_details">
-                            <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
-                            <span>August 19, 2022</span>
-                         </div>
-                     </div>
-                     <div class="post_blog d-flex flex-wrap">
-                         <div class="thumb">
-                            <a href="#">
-                              <div class="inner">
-                                  <img src="img/post_img_4.jpg" alt="">
-                              </div>
-                            </a>
-                         </div>
-                         <div class="post_blog_details">
-                            <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
-                            <span>August 23, 2022</span>
-                         </div>
-                     </div>
-                  </div>
-                   </div>
-                   <div class="add">
-                  <div class="add_span text-center">
-                     <span>- Sponsored Ad -</span>
-                  </div>
-                  <div class="add_img">
-                     <a href="#"><img src="img/ad-750.png" alt=""></a>
-                  </div>
-                   </div>
-                   <div class="section_header">
-                <h3 class="section_title">Trending</h3>
-                <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#FE4F70"></stop>
-                  <stop offset="100%" stop-color="#FFA387"></stop>
-                  </linearGradient>
-                  </defs>
-                  <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
-                   </div>
-                   <div class="blog_thum_2 d-flex">
-                      <div class="col-sm-6 blog_thum_2_trand g-0">
-                        <div class="blog_thum_2_img">
-                            <a href="#"><img src="img/post_blog_img_1.jpg" alt="" class="trand_img"></a>
-                            <a href="#" class="lifestyle">fashion</a>
-                            <span><i class="fa-solid fa-image"></i></span>
-                        </div>
-                        <div class="details">
-                      <ul class="list-inline">
-                        <img src="img/nick-arnot.jpg" alt="">
-                        <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                        <li class="list-inline-item">August 23, 2022</li>
-                      </ul>
-                      <h5><a href="#">Facts About Business That Will Help You Success</a></h5>
-                      <p class="para">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
- 
-                   <div class="post_blog trand d-flex flex-wrap">
-                       <div class="thumb">
-                          <a href="#">
-                            <div class="inner">
-                                <img src="img/post_img_4.jpg" alt="" class="trand_img">
-                            </div>
-                          </a>
-                       </div>
-                       <div class="post_blog_details">
-                          <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
-                          <span>August 23, 2022</span>
-                       </div>
-                   </div>
-                   <div class="post_blog trand d-flex flex-wrap">
-                     <div class="thumb">
-                        <a href="#">
-                          <div class="inner">
-                              <img src="img/post_img_3.jpg" alt="">
-                          </div>
-                        </a>
-                     </div>
-                     <div class="post_blog_details">
-                        <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
-                        <span>August 19, 2022</span>
-                     </div>
+              <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
                  </div>
+                 <div class="latest_posts">
+               <div class="latest_posts_item d-flex">
+                   <div class="latest_posts_img">
+                       <a href="#"><img src="img/latest_post_1.jpg" alt="" class=" img-fluid"></a>
+                   </div>
+                   <div class="latest_posts_details">
+                     <ul class="list-inline latest_posts_list">
+                       <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
+                       <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                       <li class="list-inline-item"><a href="#">Trending</a></li>
+                       <li class="list-inline-item">August 23, 2022</li>
+                     </ul>
+                     <h5 class="post_title"><a href="#">60 Things To Immediately Do About Building</a></h5>
+                     <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
+                     <div class="social_share d-flex flex-wrap justify-content-between">
+                        <div class="icon_share d-flex">
+                          <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
+                          <ul class="list-inline icons">
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                         </ul>
                         </div>
-                      </div>
-                      <div class="col-sm-6 blog_thum_2_trand g-0">
-                    <div class="blog_thum_2_img">
-                       <a href="#"><img src="img/post_blog_img_2.jpg" alt="" class="trand_img"></a>
-                       <a href="#" class="lifestyle">inspiration</a>
-                       <span><i class="fa-solid fa-image"></i></span>
-                    </div>
-                    <div class="details">
-                      <ul class="list-inline">
-                        <img src="img/nick-arnot.jpg" alt="">
-                        <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                        <li class="list-inline-item">August 20, 2022</li>
-                      </ul>
-                      <h5><a href="#">5 Easy Ways You Can Turn Future Into Success</a></h5>
-                      <p class="para">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,…</p>
- 
-                   <div class="post_blog trand d-flex flex-wrap">
-                       <div class="thumb">
-                          <a href="#">
-                            <div class="inner">
-                                <img src="img/post_img_5.jpg" alt="">
-                            </div>
-                          </a>
-                       </div>
-                       <div class="post_blog_details">
-                          <h6><a href="#">Your Light Is About To Stop Being Relevant</a></h6>
-                          <span>August 23, 2022</span>
-                       </div>
+                        <div class="more_button">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
+                     </div>
                    </div>
-                   <div class="post_blog trand d-flex flex-wrap">
-                     <div class="thumb">
-                        <a href="#">
-                          <div class="inner">
-                              <img src="img/post_img_6.jpg" alt="">
-                          </div>
-                        </a>
+               </div>
+               <div class="latest_posts_item d-flex">
+                   <div class="latest_posts_img">
+                       <a href="#"><img src="img/latest_post_2.jpg" alt="" class=" img-fluid"></a>
+                   </div>
+                   <div class="latest_posts_details">
+                     <ul class="list-inline latest_posts_list">
+                       <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
+                       <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                       <li class="list-inline-item"><a href="#">Trending</a></li>
+                       <li class="list-inline-item">August 23, 2022</li>
+                     </ul>
+                     <h5 class="post_title"><a href="#">Master The Art Of Nature With These <br> 7 Tips</a></h5>
+                     <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
+                     <div class="social_share d-flex flex-wrap justify-content-between">
+                        <div class="icon_share d-flex">
+                          <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
+                          <ul class="list-inline icons">
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                         </ul>
+                        </div>
+                        <div class="more_button">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
                      </div>
-                     <div class="post_blog_details">
-                        <h6><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h6>
-                        <span>August 19, 2022</span>
+                   </div>
+               </div>
+               <div class="latest_posts_item d-flex">
+                   <div class="latest_posts_img">
+                       <a href="#"><img src="img/latest_post.jpg" alt="" class="latest_post_3 img-fluid"></a>
+                   </div>
+                   <div class="latest_posts_details">
+                     <ul class="list-inline latest_posts_list">
+                       <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
+                       <li class="list-inline-item"><a href="#">Katen Doe</a></li>
+                       <li class="list-inline-item"><a href="#">Trending</a></li>
+                       <li class="list-inline-item">August 23, 2022</li>
+                     </ul>
+                     <h5 class="post_title"><a href="#">Facts About Business That Will Help You Success</a></h5>
+                     <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
+                     <div class="social_share d-flex flex-wrap justify-content-between">
+                        <div class="icon_share d-flex">
+                          <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
+                          <ul class="list-inline icons">
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                             <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                         </ul>
+                        </div>
+                        <div class="more_button">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
                      </div>
+                   </div>
+               </div>
+               <div class="latest_posts_item_load">
+                  <div class="load_more text-center">
+                     <a href="#" class="btn btn_simple">load more</a>
+                  </div>
+               </div>
                  </div>
-                    </div>
-                      </div>
-                   </div>
-                   <div class="section_header">
-                <h3 class="section_title">Inspiration</h3>
-                <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#FE4F70"></stop>
-                  <stop offset="100%" stop-color="#FFA387"></stop>
-                  </linearGradient>
-                  </defs>
-                  <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+            </div>
+            <div class="col-lg-4">
 
-                  <div class="inspiration_slick_icon">
-                    <button class="inspiration_slick_icon_btn prev">
-                      <span class="d-inline-block"><i class="fa-solid fa-chevron-left"></i></span>
-                    </button>
-                    <button class="inspiration_slick_icon_btn next">
-                      <span class="d-inline-block"><i class="fa-solid fa-chevron-right"></i></span>
-                    </button>
-                 </div>
-                   </div>
-                   <div class="insp_slider">
-                      <div class="insp_slider_item">
-                        <div class="insp_img_item">
-                          <a href="#">
-                          <div class="insp_img_thumb">
-                          <img src="img/insp_img_4.jpg" alt="">
-                          </div>
-                          </a>
-                        </div>
-                  <div class="insp_details ms-4">
-                     <a href="#" class="catagory">Celebration</a>
-                     <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
-                     <ul class="list-inline">
-                       <li class="list-inline-item"><a href="#">katen doe</a></li>
-                       <li class="list-inline-item">august 20,2022</li>
-                     </ul>
-                  </div>
-                      </div> 
-                     <div class="insp_slider_item">
-                  <div class="insp_img_item">
-                    <a href="#">
-                     <div class="insp_img_thumb">
-                       <img src="img/insp_img_2.jpg" alt="">
-                     </div>
-                    </a>
-                  </div>
-                  <div class="insp_details ms-4">
-                     <a href="#" class="catagory">Celebration</a>
-                     <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
-                     <ul class="list-inline">
-                       <li class="list-inline-item"><a href="#">katen doe</a></li>
-                       <li class="list-inline-item">august 20,2022</li>
-                     </ul>
-                  </div>
-                     </div> 
-                     <div class="insp_slider_item">
-                  <div class="insp_img_item">
-                    <a href="#">
-                     <div class="insp_img_thumb">
-                       <img src="img/insp_img_1.jpg" alt="" class=" img-fluid">
-                     </div>
-                    </a>
-                  </div>
-                  <div class="insp_details ms-4">
-                     <a href="#" class="catagory">Celebration</a>
-                     <h2 class="post_title"><a href="#">Want To Have A More <br> Appealing Tattoo?</a></h2>
-                     <ul class="list-inline">
-                       <li class="list-inline-item"><a href="#">katen doe</a></li>
-                       <li class="list-inline-item">august 20,2022</li>
-                     </ul>
-                  </div>
-                     </div> 
-                   </div>
-                   <div class="section_header">
-                      <h3 class="section_title">Latest Posts</h3>
-                      <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
-                      <defs>
-                      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                      <stop offset="0%" stop-color="#FE4F70"></stop>
-                      <stop offset="100%" stop-color="#FFA387"></stop>
-                      </linearGradient>
-                      </defs>
-                <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
-                   </div>
-                   <div class="latest_posts">
-                 <div class="latest_posts_item d-flex">
-                     <div class="latest_posts_img">
-                         <a href="#"><img src="img/latest_post_1.jpg" alt="" class=" img-fluid"></a>
-                     </div>
-                     <div class="latest_posts_details">
-                       <ul class="list-inline latest_posts_list">
-                         <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
-                         <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                         <li class="list-inline-item"><a href="#">Trending</a></li>
-                         <li class="list-inline-item">August 23, 2022</li>
-                       </ul>
-                       <h5 class="post_title"><a href="#">60 Things To Immediately Do About Building</a></h5>
-                       <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
-                       <div class="social_share d-flex flex-wrap justify-content-between">
-                          <div class="icon_share d-flex">
-                            <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
-                            <ul class="list-inline icons">
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                           </ul>
-                          </div>
-                          <div class="more_button">
-                              <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
-                          </div>
-                       </div>
-                     </div>
-                 </div>
-                 <div class="latest_posts_item d-flex">
-                     <div class="latest_posts_img">
-                         <a href="#"><img src="img/latest_post_2.jpg" alt="" class=" img-fluid"></a>
-                     </div>
-                     <div class="latest_posts_details">
-                       <ul class="list-inline latest_posts_list">
-                         <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
-                         <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                         <li class="list-inline-item"><a href="#">Trending</a></li>
-                         <li class="list-inline-item">August 23, 2022</li>
-                       </ul>
-                       <h5 class="post_title"><a href="#">Master The Art Of Nature With These <br> 7 Tips</a></h5>
-                       <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
-                       <div class="social_share d-flex flex-wrap justify-content-between">
-                          <div class="icon_share d-flex">
-                            <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
-                            <ul class="list-inline icons">
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                           </ul>
-                          </div>
-                          <div class="more_button">
-                              <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
-                          </div>
-                       </div>
-                     </div>
-                 </div>
-                 <div class="latest_posts_item d-flex">
-                     <div class="latest_posts_img">
-                         <a href="#"><img src="img/latest_post.jpg" alt="" class="latest_post_3 img-fluid"></a>
-                     </div>
-                     <div class="latest_posts_details">
-                       <ul class="list-inline latest_posts_list">
-                         <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
-                         <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                         <li class="list-inline-item"><a href="#">Trending</a></li>
-                         <li class="list-inline-item">August 23, 2022</li>
-                       </ul>
-                       <h5 class="post_title"><a href="#">Facts About Business That Will Help You Success</a></h5>
-                       <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
-                       <div class="social_share d-flex flex-wrap justify-content-between">
-                          <div class="icon_share d-flex">
-                            <button class=" toggle-button"><i class="fa-solid fa-share-nodes"></i></button>
-                            <ul class="list-inline icons">
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                               <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                           </ul>
-                          </div>
-                          <div class="more_button">
-                              <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
-                          </div>
-                       </div>
-                     </div>
-                 </div>
-                 <div class="latest_posts_item_load">
-                    <div class="load_more text-center">
-                       <a href="#" class="btn btn_simple">load more</a>
+              <div class="post_tabs">
+                <ul class="nav nav-tabs nav_tabs_control">
+                  <li class="post_tabs_menu">
+                    <button data-bs-toggle="tab" data-bs-target="#popular" type="button" class="post_active">popular</button>
+                  </li>
+                  <li>
+                    <button data-bs-toggle="tab" data-bs-target="#recent" type="button">recent</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="navTap_iteam" class="navTap_iteam">
+                  <div class="tab-pane fade show active navTap_iteam_content" id="popular" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_1.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
                     </div>
-                 </div>
-                   </div>
+                  </div>
+                  <div class="tab-pane fade show active navTap_iteam_content" id="recent" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_2.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-
-            <div class="col-lg-4">
                <div class="our_information">
                  <img src="img/logo_2.svg" alt="" class="info_logo">
                  <p class=" text-center">Hello, We’re content writer who is fascinated by content fashion, celebrity and lifestyle. We helps clients bring the right content to the right people.</p>
@@ -704,6 +762,62 @@
        </div>
     </section>
     <!-- Blog section end  -->
+    <!-- Instagram section start  -->
+    <section id="instagram">
+       <div class="container">
+          <div class="row">
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_1.jpg" alt="" ></a>
+              </div>
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_2.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_3.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_4.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_5.jpg" alt=""></a>
+              </div>
+              <div class="col-lg-2 instagram_item">
+                 <a href="#"><img src="img/insta_6.jpg" alt=""></a>
+              </div>
+          </div>
+          <a target="_blank" href="https://www.instagram.com/katen_theme/" class="btn btn_instagram" rel="noopener">@Katen on Instagram</a>
+       </div>
+    </section>
+    <!-- Instagram section end  -->
+    <!-- Footer section start  -->
+    <footer>
+        <div class="container">
+           <div class="footer_inner">
+              <div class="row">
+                 <div class="col-md-4">
+                    <span class="copyright">&copy; 2022 Katen. Theme by ThemeGer.</span>
+                 </div>
+                 <div class="col-md-4">
+                  <ul class="list-inline social_links text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                 </div>
+                 <div class="col-md-4">
+                    <a href="#" class="backTOtop float-md-end">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      Back to Top
+                    </a>
+                 </div>
+              </div> 
+           </div>
+        </div>
+    </footer>
+    <!-- Footer section end  -->
       
      
 

@@ -43,7 +43,7 @@ body{
     }
     .nav_menu li{
         ul li{
-            border-bottom: 1px solid gray;
+            border-bottom: 1px solid #ebebeb;
             &:last-child{
                 border-bottom: none;
             }
@@ -688,6 +688,118 @@ body{
         }
     }
 
+    .post_tabs{
+        border: solid 1px #ebebeb;
+        padding: 35px 30px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        ul.nav-tabs{
+            border-bottom: none;
+            li{
+                margin-right: 10px;
+                button{
+                    outline: none;
+                    background:0 0;
+                    border:solid 1px #ebebeb;
+                    border-radius:30px;
+                    color: #8f9bad;
+                    text-transform: capitalize;
+                    display: block;
+                    padding: 10px 38px;
+                    text-decoration: none;
+                    transition: color .15s ease-in-out,
+                    background-color .15s ease-in-out,
+                    border-color .15s ease-in-out;
+                    margin-bottom: 28px;
+                    &.post_active{
+                        color: #fff !important;
+                        background: linear-gradient(to right,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+                        background-size: auto;
+                        border-color: transparent;
+                        background-size: 200% auto;
+                    }
+                }
+            }
+        }
+        .navTap_iteam{
+             .navTap_iteam_content{
+                .nav_tap_post_item{
+                    position: relative;
+                    border-bottom: 1px solid #ebebeb;
+                    margin-bottom: 30px;
+                    &:last-child{
+                        border-bottom: none;
+                        margin-bottom: 0;
+                    }
+                    &::before{
+                        content:counter(my-awesome-counter);
+                        color:#fff;
+                        display:block;
+                        border:solid 2px #fff;
+                        border-radius:50%;
+                        font-size:12px;
+                        font-family:"Poppins",sans-serif;
+                        font-weight:700;
+                        height:24px;
+                        line-height:22px;
+                        left:0;
+                        text-align:center;
+                        top:-10px;
+                        position:absolute;
+                        width:24px;
+                        box-shadow:0px 2px 4px 0px rgba(0,0,0,.15);
+                        background:#fe4f70;
+                        background:-webkit-linear-gradient(bottom,#fe4f70 0%,#ffa387 100%);
+                        background:linear-gradient(to top,#fe4f70 0%,#ffa387 100%);
+                        z-index:1;
+                    }
+                    .nav_tap_post_item_img{
+                        overflow: hidden;
+                        max-width: 60px;
+                        float: left;
+                        .inner{
+                            overflow: hidden;
+                            border-radius: 50%;
+                            img{
+                                transform: scale(1);
+                                transition: all 0.3s ease-in-out;
+                                object-fit: cover;
+                                width: 100%;
+                                &:hover{
+                                    transform: scale(1.1);
+                                }
+                            }
+                        }
+                    }
+                    .nav_tap_post_item_content{
+                        position: relative;
+                        .post_title a{
+                            display: inline-block;
+                            position: absolute;
+                            left: 55px;
+                            font-size: 15px;
+                            color: #203656;
+                            font-weight: 700;
+                            margin-left: 20px;
+                            transition: 0.3s;
+                            line-height: 1.3;
+                            &:hover{
+                                color: #fe4f70;
+                            }
+                        }
+                        ul li{
+                            margin-top: 40px;
+                            margin-right: 90px;
+                            color: #79889e;
+                            font-size: 15px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+             }
+        }
+    }
+
     .our_information{
         border: solid 1px #ebebeb;
         padding: 35px 30px;
@@ -1106,3 +1218,72 @@ body{
     }
 }
 // Blog section end 
+// Instagram section start 
+#instagram{
+    margin-bottom: 62px;
+    position: relative;
+    .btn_instagram{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 9.5px 36px;
+        background: linear-gradient(to right,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+        background-size: 200% auto;
+        transition: 0.3s;
+        outline: none;
+        &:hover{
+            color: #fff;
+            background-position: right center;
+        }
+    }
+    .instagram_item{
+        position: relative;
+        overflow: hidden;
+        width: 182.083px;
+        border-radius: 10px;
+        a img{
+                height: 182.083px;
+                opacity: 1;
+                border-radius: 10px;
+        }
+    }
+}
+// Instagram section end 
+// Footer section start
+footer{
+    .footer_inner{
+        border-top: 1px solid #ebebeb;
+        padding: 40px 0;
+        .copyright{
+            color: #8f9bad;
+        }
+        .social_links li a{
+            color: #203656;
+            font-size: 16px;
+            transition: 0.3s;
+            &:hover{
+                color: #fe4f70;
+            }
+        }
+        .backTOtop{
+            color: #8f9bad;
+            font-size: 13px;
+            border: solid 1px #ebebeb;
+            text-decoration: none;
+            border-radius: 25px;
+            padding: 6px 20px;
+            transition: all .3s ease-in-out;
+            &:hover{
+                color: #fe4f70;
+                border-color: #fe4f70;
+            }
+        }
+    }
+} 
+// Footer section end 
