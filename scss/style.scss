@@ -1074,7 +1074,7 @@ body{
             .celebration_slider_icon{
                 position: absolute;
                 bottom: -25px;
-                right: 50%;
+                right: 40%;
                 .celebration_slider_icon_btn{
                     outline: none;
                     background: transparent;
@@ -1084,6 +1084,11 @@ body{
                     font-size: 14px;
                     border-radius: 50%;
                     color: #79889e;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #fe4f70;
+                        border-color: #fe4f70;
+                    }
                 }
             }
             .celebration_slider{

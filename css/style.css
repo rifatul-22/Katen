@@ -1098,7 +1098,7 @@ body {
 #blog .celebration .celebration_content .celebration_slider_icon {
   position: absolute;
   bottom: -25px;
-  right: 50%;
+  right: 40%;
 }
 #blog .celebration .celebration_content .celebration_slider_icon .celebration_slider_icon_btn {
   outline: none;
@@ -1109,6 +1109,12 @@ body {
   font-size: 14px;
   border-radius: 50%;
   color: #79889e;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#blog .celebration .celebration_content .celebration_slider_icon .celebration_slider_icon_btn:hover {
+  color: #fe4f70;
+  border-color: #fe4f70;
 }
 #blog .celebration .celebration_content .celebration_slider .celebration_slider_item .celebration_slider_img {
   position: relative;
