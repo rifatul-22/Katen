@@ -14,8 +14,6 @@ a,a:hover{
 body{
     font-family: 'Roboto', sans-serif;
 }
-// $poppinsFamily:'Poppins', sans-serif;
-// $robotoFamily:'Roboto', sans-serif;
 /* common css end  */
 // nav section start 
 #nav{
@@ -25,30 +23,54 @@ body{
     a img{
         margin-right: 50px;
     }
-    .nav_menu li a{
-        font-size: 14px;
-        font-weight: 400;
-        color: #79889e;
-        padding:.439rem 1rem;
-        text-transform: capitalize;
-        &:hover{
-            color: #203656;
-        }
-        &.h_active{
-            color:#fff;
-            border-radius:25px;
-            background:#fe4f70;
-            background:linear-gradient(to right,#fe4f70 0%,#ffa387 100%)
+    .nav_menu{
+        position: relative;
+        li{
+            a{
+                font-size: 14px;
+                font-weight: 400;
+                color: #79889e;
+                padding:.439rem 1rem;
+                text-transform: capitalize;
+                &:hover{
+                    color: #203656;
+                }
+                &.h_active{
+                    color:#fff;
+                    border-radius:25px;
+                    background:#fe4f70;
+                    background:linear-gradient(to right,#fe4f70 0%,#ffa387 100%)
+                }
+                i{
+                    margin-left: 5px;
+                    font-size: 11px;
+                }
+            }
         }
     }
     .nav_menu li{
-        ul li{
-            border-bottom: 1px solid #ebebeb;
-            &:last-child{
-                border-bottom: none;
-            }
+        &:hover .nav_menu_dropdawn{
+            visibility: visible;
+            opacity: 1;
         }
-        ul li a{
+        .nav_menu_dropdawn{
+            position: absolute;
+                top: 35px;
+                z-index: 999999999;
+                background: #fff;
+                width: 170px;
+                visibility: hidden;
+                opacity: 0;
+                transition: all 0.3s ease-in-out;
+            li{
+                margin: 5px 0;
+                border-bottom: 1px solid #ebebeb;
+                &:last-child{
+                    border-bottom: none;
+                }
+        }
+        }
+        .nav_menu_dropdawn li a{
             background: none;
             font-family: 13px;
             font-weight: 400;
@@ -205,6 +227,7 @@ body{
     }
     .section_header{
         margin-top: 60px;
+        position: relative;
         .section_title{
             font-size: 24px;
             font-weight: 700;
@@ -218,28 +241,28 @@ body{
         overflow: hidden;
         z-index: 99;
         .blog_thum_2_trand{
-            margin-right: 20px;
+            margin-right: 10px;
             overflow: hidden;
-            // width: 340px;
-            // margin-right: 22px;
         }
         .blog_thum_2_img{
             position: relative;
-            overflow: hidden;
             border-radius: 10px;
-            &:hover a img{
+            &:hover .trand_inner img{
                 transform: scale(1.1);
             }
-            a .trand_img{
-                width: 340px;
+            .trand_inner{
+                display: inline-block;
                 overflow: hidden;
-            }
-            a img{
-                transform: scale(1);
-                transition: 0.3s;
-                object-fit: cover;
-                width: 100%;
-                z-index: -1;
+                border-radius: 10px;
+                width: 325px;
+                height: 233px;
+                .trand_img{
+                    transform: scale(1);
+                    transition: 0.3s;
+                    object-fit: cover;
+                    width: 100%;
+                    z-index: -1;
+                }
             }
             .lifestyle{
                 position: absolute;
@@ -281,6 +304,23 @@ body{
                 background:#fe4f70;
                 background:-webkit-linear-gradient(bottom,#fe4f70 0%,#ffa387 100%);
                 background:linear-gradient(to top,#fe4f70 0%,#ffa387 100%);
+            }
+            &:hover .blog_inner .blog_inner_img{
+                transform: scale(1.1);
+            }
+            .blog_inner{
+                display: inline-block;
+                overflow: hidden;
+                border-radius: 10px;
+                width: 325px;
+                height: 233px;
+                .blog_inner_img{
+                    transform: scale(1);
+                    transition: 0.3s;
+                    object-fit: cover;
+                    width: 100%;
+                    z-index: -1;
+                }
             }
         }
         .details{
@@ -509,8 +549,8 @@ body{
         }
     }
     .inspiration_slick_icon{
-        position: relative;
-        top: -35px;
+        position: absolute;
+        top: 15px;
         left: 88%;
         button{
             background: none;
@@ -538,24 +578,27 @@ body{
         border-radius: 10px;
         position: relative;
         margin-bottom: 60px;
+        &.lifestyle_latest_posts{
+            margin-top: 0px;
+        }
         .latest_posts_item{
-            overflow: hidden;
+            // overflow: hidden;
             margin-bottom: 30px;
             .latest_posts_img{
                 position: relative;
                 overflow: hidden;
-                width: 264px;
                 border-radius: 10px;
-                &:hover img{
+                &:hover .latest_inner .latest_inner_img{
                     transform: scale(1.1);
                 }
-                a img{
-                    height: 210px;
-                    border-radius: 10px;
-                    transform: scale(1);
-                    transition: all 0.3s ease-in-out;
-                    &.latest_post_3{
-                        width: 264px;
+                .latest_inner{
+                    width: 330px;
+                    height: 250px;
+                    overflow: hidden;
+                    .latest_inner_img{
+                        border-radius: 10px;
+                        transform: scale(1);
+                        transition: all 0.3s ease-in-out;
                     }
                 }
             }
@@ -593,6 +636,7 @@ body{
                 .post_title{
                     margin: 8px 0;
                     a{
+                        display: inline-block;
                         font-weight: 700;
                         line-height: 30px;
                         color: #203656;
@@ -721,7 +765,7 @@ body{
                 }
             }
         }
-        .navTap_iteam{
+        #navTap_iteam{
              .navTap_iteam_content{
                 .nav_tap_post_item{
                     position: relative;
@@ -730,28 +774,6 @@ body{
                     &:last-child{
                         border-bottom: none;
                         margin-bottom: 0;
-                    }
-                    &::before{
-                        content:counter(my-awesome-counter);
-                        color:#fff;
-                        display:block;
-                        border:solid 2px #fff;
-                        border-radius:50%;
-                        font-size:12px;
-                        font-family:"Poppins",sans-serif;
-                        font-weight:700;
-                        height:24px;
-                        line-height:22px;
-                        left:0;
-                        text-align:center;
-                        top:-10px;
-                        position:absolute;
-                        width:24px;
-                        box-shadow:0px 2px 4px 0px rgba(0,0,0,.15);
-                        background:#fe4f70;
-                        background:-webkit-linear-gradient(bottom,#fe4f70 0%,#ffa387 100%);
-                        background:linear-gradient(to top,#fe4f70 0%,#ffa387 100%);
-                        z-index:1;
                     }
                     .nav_tap_post_item_img{
                         overflow: hidden;
@@ -855,32 +877,10 @@ body{
                 border-bottom: none;
                 margin-bottom: 0;
             }
-            &::before{
-                content:counter(my-awesome-counter);
-                color:#fff;
-                display:block;
-                border:solid 2px #fff;
-                border-radius:50%;
-                font-size:12px;
-                font-family:"Poppins",sans-serif;
-                font-weight:700;
-                height:24px;
-                line-height:22px;
-                left:0;
-                text-align:center;
-                top:-10px;
-                position:absolute;
-                width:24px;
-                box-shadow:0px 2px 4px 0px rgba(0,0,0,.15);
-                background:#fe4f70;
-                background:-webkit-linear-gradient(bottom,#fe4f70 0%,#ffa387 100%);
-                background:linear-gradient(to top,#fe4f70 0%,#ffa387 100%);
-                z-index:1;
-            }
             .popular_post_item_img{
-                overflow: hidden;
                 max-width: 60px;
                 float: left;
+                position: relative;
                 .inner{
                     overflow: hidden;
                     border-radius: 50%;
@@ -892,6 +892,18 @@ body{
                         &:hover{
                             transform: scale(1.1);
                         }
+                    }
+                    .inner_one{
+                        position: absolute;
+                        background: #fe4f70;
+                        width: 20px;
+                        height: 20px;
+                        left: 0px;
+                        border-radius: 50%;
+                        text-align: center;
+                        font-size: 13px;
+                        color: #fff;
+                        border: 2px solid #fff;
                     }
                 }
             }
@@ -1292,3 +1304,9 @@ footer{
     }
 } 
 // Footer section end 
+
+@import 'lifestyle';
+@import '404';
+@import 'contact';
+@import 'author';
+@import 'details';

@@ -1,0 +1,109 @@
+
+// contact info css section start 
+#contact_info{
+    .contact_info_item{
+        border: solid 1px #ebebeb;
+        padding: 25px;
+        border-radius: 10px;
+        margin-right: 20px;
+        width: 351px;
+        margin-bottom: 55px;
+        .icon_phone{
+            color: #fff;
+            float: left;
+            border-radius: 10px;
+            margin-right: 20px;
+            display: block;
+            font-size: 25px;
+            line-height: 50px;
+            height: 50px;
+            text-align: center;
+            width: 50px;
+            background: #fe4f70;
+            background: -webkit-linear-gradient(left,#fe4f70 0%,#ffa387 100%);
+            background: linear-gradient(to right,#fe4f70 0%,#ffa387 100%);
+        }
+        .details{
+            h3{
+                font-size: 18px;
+                font-weight: 700;
+                color: #203656;
+                margin-bottom: 5px;
+            }
+            p{
+                color: #8f9bad;
+            }
+        }
+    }
+}
+// contact info css section end 
+// contact Form css section start 
+#contact_form{
+    .contact_section_header{
+        .section_title{
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    }
+    .input_name{
+        margin: 30px 0;
+        input{
+            display: block;
+            border-radius: 25px;
+            width: 536px;
+            padding: 8px 24px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #8f9bad;
+            background-color: #fff;
+            background-image: none;
+            border: solid 1px #ebebeb;
+            box-shadow: none;
+            margin-bottom: 30px;
+            &:focus{
+                border-color: #fe4f70;
+            }
+        }
+        textarea{
+            resize: none;
+            display: block;
+            border-radius: 25px;
+            width: 100%;
+            padding: 8px 24px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #8f9bad;
+            background-color: #fff;
+            background-image: none;
+            border: solid 1px #ebebeb;
+            box-shadow: none;
+            height: 107px;
+            &:focus{
+                border-color: #fe4f70;
+            }
+        }
+    }
+
+    .btn_msg{
+        color:#fff;
+        padding:9.5px 36px;
+        background:#fe4f70;
+        background:-webkit-linear-gradient(left,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+        background:linear-gradient(to right,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+        background-size:200% auto;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400;
+        transition: 0.3s;
+        margin-bottom: 73px;
+        &:hover{
+            color:#fff;
+            background-position:right center
+        }
+    }
+}
+// contact Form css section end 

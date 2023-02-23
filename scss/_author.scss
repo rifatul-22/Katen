@@ -1,0 +1,90 @@
+
+// Author Banner section css start 
+#author_banner{
+    .author_banner_content{
+        background: #f1f8ff;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        .author_thum{
+            float: left;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            a{
+                color: #fe4f70;
+                outline: 0;
+                text-decoration: none;
+                -webkit-transition: all .2s ease-in-out;
+                -moz-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+              }
+        }
+        .author_details{
+            margin-left: 130px;
+            h1{
+                font-size: 30px;
+                font-weight: 700;
+                color: #203656;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #8f9bad;
+                margin-bottom: 10px;
+            }
+        }
+        ul li a{
+            color: #203656;
+            transition: 0.3s;
+            &:hover{
+                color: #fe4f70;
+            }
+        }
+    }
+    }
+// Author Banner section css end 
+ 
+.latest_posts_next_page{
+    ul .page-item .page_numbers{
+        position: relative;
+        display: block;
+        color: #8f9bad;
+        border-radius: 50%;
+        font-size: 14px;
+        text-decoration: none;
+        border: solid 1px #ebebeb;
+          border-top-color: rgb(235, 235, 235);
+          border-right-color: rgb(235, 235, 235);
+          border-bottom-color: rgb(235, 235, 235);
+          border-left-color: rgb(235, 235, 235);
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        padding: 0;
+        width: 45px;
+
+       &.current,&:hover{
+        display: inline-block;
+        z-index: 3;
+        color: #fff;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 50%;
+        border-color: transparent;
+        background: #ffa387;
+        background: linear-gradient(to top,#ffa387 0%,#fe4f70 51%,#ffa387 100%);
+        background-size: auto;
+        background-size: auto 200%;
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,.15);
+        transition: all .2s ease-in-out;
+    }
+    }
+}

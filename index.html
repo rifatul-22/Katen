@@ -22,15 +22,15 @@
     <!-- nav section start  -->
     <nav class="navbar navbar-expand-lg navbar-light" id="nav">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="img/katen_logo.svg"></a>
+          <a class="navbar-brand" href="index.html"><img src="img/katen_logo.svg"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_menu">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle h_active" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown">Home</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link h_active" aria-current="page" href="index.html" id="navbarDropdown" data-bs-toggle="dropdown">Home<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="nav_menu_dropdawn">
                     <li><a class="dropdown-item a_active" href="#">magazine</a></li>
                     <li><a class="dropdown-item" href="#">personal</a></li>
                     <!-- <li><hr class="dropdown-divider"></li> -->
@@ -40,25 +40,26 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">lifestyle</a>
+                <a class="nav-link active" aria-current="page" href="lifestyle.html">lifestyle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">culture</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown">features</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">magazine</a></li>
-                  <li><a class="dropdown-item" href="#">personal</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
-                  <li><a class="dropdown-item" href="#">personal alt</a></li>
-                  <li><a class="dropdown-item" href="#">classic</a></li>
-                  <li><a class="dropdown-item" href="#">minimal</a></li>
+                <a class="nav-link active" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown">features <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="nav_menu_dropdawn" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Post Layouts</a></li>
+                  <li><a class="dropdown-item" href="#">Post Formats</a></li>
+                  <li><a class="dropdown-item" href="details.html">Archive</a></li>
+                  <li><a class="dropdown-item" href="author.html">Author page</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact Page</a></li>
+                  <li><a class="dropdown-item" href="#">paginated Page</a></li>
+                  <li><a class="dropdown-item" href="404.html">404 Page</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown">shop</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link active" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown">shop<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="nav_menu_dropdawn" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">cart</a></li>
                   <li><a class="dropdown-item" href="#">checkout</a></li>
                 </ul>
@@ -95,7 +96,7 @@
         </div>
     </nav>
     <!-- nav section end  -->
-    <!-- Blog section start  -->
+    <!-- Lifestyle Blog section start  -->
     <section id="blog">
        <div class="container">
           <div class="row">
@@ -132,7 +133,7 @@
                  <div class="blog_thum_2 d-flex">
                 <div class="col-sm-6">
                    <div class="blog_thum_2_img">
-                      <a href="#"><img src="img/blog_2.1.jpg" alt=""></a>
+                      <a href="#" class="blog_inner"><img src="img/blog_2.1.jpg" alt="" class="blog_inner_img"></a>
                       <a href="#" class="lifestyle">lifestyle</a>
                       <span><i class="fa-solid fa-image"></i></span>
                    </div>
@@ -223,9 +224,9 @@
                  <div class="blog_thum_2 d-flex">
                     <div class="col-sm-6 blog_thum_2_trand g-0">
                       <div class="blog_thum_2_img">
-                          <a href="#"><img src="img/post_blog_img_1.jpg" alt="" class="trand_img"></a>
+                          <a href="#" class="trand_inner"><img src="img/post_blog_img_1.jpg" alt="" class="trand_img"></a>
                           <a href="#" class="lifestyle">fashion</a>
-                          <span><i class="fa-solid fa-image"></i></span>
+                          <span><i class="fa-solid fa-video"></i></span>
                       </div>
                       <div class="details">
                     <ul class="list-inline">
@@ -266,9 +267,9 @@
                     </div>
                     <div class="col-sm-6 blog_thum_2_trand g-0">
                   <div class="blog_thum_2_img">
-                     <a href="#"><img src="img/post_blog_img_2.jpg" alt="" class="trand_img"></a>
+                     <a href="#" class="trand_inner"><img src="img/post_blog_img_2.jpg" alt="" class="trand_img"></a>
                      <a href="#" class="lifestyle">inspiration</a>
-                     <span><i class="fa-solid fa-image"></i></span>
+                     <span><i class="fa-solid fa-headphones"></i></span>
                   </div>
                   <div class="details">
                     <ul class="list-inline">
@@ -393,9 +394,9 @@
               <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
                  </div>
                  <div class="latest_posts">
-               <div class="latest_posts_item d-flex">
+                   <div class="latest_posts_item d-flex">
                    <div class="latest_posts_img">
-                       <a href="#"><img src="img/latest_post_1.jpg" alt="" class=" img-fluid"></a>
+                       <a href="#" class="latest_inner"><img src="img/latest_post_1.jpg" alt="" class=" img-fluid latest_inner_img"></a>
                    </div>
                    <div class="latest_posts_details">
                      <ul class="list-inline latest_posts_list">
@@ -422,19 +423,19 @@
                         </div>
                      </div>
                    </div>
-               </div>
-               <div class="latest_posts_item d-flex">
+                   </div>
+                   <div class="latest_posts_item d-flex">
                    <div class="latest_posts_img">
-                       <a href="#"><img src="img/latest_post_2.jpg" alt="" class=" img-fluid"></a>
+                       <a href="#" class="latest_inner"><img src="img/latest_post_2.jpg" alt="" class=" img-fluid latest_inner_img"></a>
                    </div>
                    <div class="latest_posts_details">
                      <ul class="list-inline latest_posts_list">
                        <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
                        <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                       <li class="list-inline-item"><a href="#">Trending</a></li>
+                       <li class="list-inline-item"><a href="#">Lifestyle</a></li>
                        <li class="list-inline-item">August 23, 2022</li>
                      </ul>
-                     <h5 class="post_title"><a href="#">Master The Art Of Nature With These <br> 7 Tips</a></h5>
+                     <h5 class="post_title"><a href="#">Master The Art Of Nature With These 7 Tips</a></h5>
                      <p>The European languages are members of the same family. Their separate existence is a myth.…</p>
                      <div class="social_share d-flex flex-wrap justify-content-between">
                         <div class="icon_share d-flex">
@@ -452,16 +453,16 @@
                         </div>
                      </div>
                    </div>
-               </div>
-               <div class="latest_posts_item d-flex">
+                   </div>
+                   <div class="latest_posts_item d-flex">
                    <div class="latest_posts_img">
-                       <a href="#"><img src="img/latest_post.jpg" alt="" class="latest_post_3 img-fluid"></a>
+                       <a href="#" class="latest_inner"><img src="img/latest_post_3.jpg" alt="" class=" img-fluid latest_inner_img"></a>
                    </div>
                    <div class="latest_posts_details">
                      <ul class="list-inline latest_posts_list">
                        <li class="list-inline-item"><img src="img/nick-arnot.jpg" alt=""></li>
                        <li class="list-inline-item"><a href="#">Katen Doe</a></li>
-                       <li class="list-inline-item"><a href="#">Trending</a></li>
+                       <li class="list-inline-item"><a href="#">Fashion</a></li>
                        <li class="list-inline-item">August 23, 2022</li>
                      </ul>
                      <h5 class="post_title"><a href="#">Facts About Business That Will Help You Success</a></h5>
@@ -482,12 +483,14 @@
                         </div>
                      </div>
                    </div>
-               </div>
-               <div class="latest_posts_item_load">
+                   </div>
+                   
+
+                   <div class="latest_posts_item_load">
                   <div class="load_more text-center">
                      <a href="#" class="btn btn_simple">load more</a>
                   </div>
-               </div>
+                   </div>
                  </div>
             </div>
             <div class="col-lg-4">
@@ -518,13 +521,103 @@
                          </ul>
                       </div>
                     </div>
-                  </div>
-                  <div class="tab-pane fade show active navTap_iteam_content" id="recent" role="tabpanel" aria-labelledby="home-tab">
                     <div class="nav_tap_post_item">
                       <div class="nav_tap_post_item_img">
                          <a href="#">
                             <div class="inner">
                                <img src="img/populer_post_2.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_3.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_4.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade navTap_iteam_content" id="recent" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_5.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_6.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_2.jpg" alt="">
+                            </div>
+                         </a>
+                      </div>
+                      <div class="nav_tap_post_item_content">
+                         <h3 class="post_title"><a href="#">3 Easy Ways To Make Your iPhone Faster</a></h3>
+                         <ul class="list-inline text-center social_links">
+                           <li class="list-inline-item">19 August 2022</li>
+                         </ul>
+                      </div>
+                    </div>
+                    <div class="nav_tap_post_item">
+                      <div class="nav_tap_post_item_img">
+                         <a href="#">
+                            <div class="inner">
+                               <img src="img/populer_post_7.jpg" alt="">
                             </div>
                          </a>
                       </div>
@@ -568,6 +661,7 @@
                         <a href="#">
                            <div class="inner">
                               <img src="img/populer_post_1.jpg" alt="">
+                              <span class="inner_one">1</span>
                            </div>
                         </a>
                      </div>
@@ -583,6 +677,7 @@
                         <a href="#">
                            <div class="inner">
                               <img src="img/populer_post_2.jpg" alt="">
+                              <span class="inner_one">2</span>
                            </div>
                         </a>
                      </div>
@@ -598,6 +693,7 @@
                         <a href="#">
                            <div class="inner">
                               <img src="img/populer_post_3.jpg" alt="">
+                              <span class="inner_one">3</span>
                            </div>
                         </a>
                      </div>
@@ -761,7 +857,7 @@
           </div>
        </div>
     </section>
-    <!-- Blog section end  -->
+    <!-- Lifestyle Blog section end  -->
     <!-- Instagram section start  -->
     <section id="instagram">
        <div class="container">

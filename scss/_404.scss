@@ -1,0 +1,40 @@
+
+// Banner section css start 
+#not_found{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    .not_found_title{
+        h1{
+            color: #203656;
+            font-weight: 700;
+            line-height: 1.4;
+            text-transform: capitalize;
+            margin-bottom: 40px;
+        }
+        p{
+            color: #8f9bad;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        a{
+            color: #fff;
+            padding: 9.5px 36px;
+            background: linear-gradient(to right,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+            background-size: 200% auto;
+            margin-bottom: 1.5rem;
+            text-transform: capitalize;
+            font-size: 15px;
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: #fff;
+                background-position: right center;
+            }
+            i{
+                padding-right: 5px;
+            }
+          }
+        }
+    }
+// Banner section css end 

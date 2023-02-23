@@ -1,0 +1,38 @@
+
+// banner section css start 
+#banner{
+    background: #f1f8ff;
+    margin-bottom: 60px;
+    padding: 40px 0;
+    .banner_title{
+        h1{
+            color: #203656;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin: 20px 0;
+        }
+        p{
+            color: #79889e;
+            // padding-left: 5px;
+            font-size: 14px;
+            font-weight: 400;
+            word-spacing: 5px;
+            a{
+                color: #79889e;
+                transition: 0.3s;
+                &:hover{
+                    color: #fe4f70;
+                }
+            }
+        }
+    }
+}
+// banner section css end 
+// Lifestyle Blog section css start
+#lifestyle_blog{
+    .lifestyle_latest_posts{
+        margin-top: 0;
+    }
+} 
+// Lifestyle Blog section css end 
