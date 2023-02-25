@@ -16,7 +16,7 @@ $(function(){
     });
 
     $('.nav_tabs_control li button').on('click', function(){
-        $(this).addClass('post_active');  
+        $(this).addClass('.post_active');  
         $().removeClass('.post_active');
     })
 });
