@@ -100,7 +100,7 @@ body{
         }
         .navber_button{
             margin-left: 50px;
-            button{
+            .nav_btn{
                 margin-right: 10px;
                 color:#fff;
                 border:0;
@@ -125,6 +125,51 @@ body{
                 transition:all .2s ease-in-out;
                 &:hover{
                     background-position:bottom center;
+                }
+            }
+            .my_offcanvas{
+                .offcanvas-header{
+                    position: relative;
+                    .close_btn{
+                        box-sizing: content-box;
+                        width: 1em;
+                        height: 1em;
+                        position: absolute;
+                        padding: .25em;
+                        color: #000;
+                        border: 0;
+                        border-radius: .25rem;
+                        opacity: .4;
+                        right: 40px;
+                        top: 30px;
+                        transition: all .3s ease-in-out;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .offcanvas-body{
+                .menu_logo{
+                    margin-bottom: 80px;
+                    margin-left: 40px;
+                    margin-top: 50px;
+                    width: 100%;
+                }
+
+
+                .nav_manu_social_links{
+                    ul{
+                        margin-left: 40px;
+                    }
+                    li a{
+                        color: #203656;
+                        margin-right: 5px;
+                        transition: 0.2s;
+                        &:hover{
+                            color: #fe4f70;
+                        }
+                    }
                 }
             }
         }

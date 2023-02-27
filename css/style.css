@@ -102,7 +102,7 @@ body {
 #nav .navber_right .navber_button {
   margin-left: 50px;
 }
-#nav .navber_right .navber_button button {
+#nav .navber_right .navber_button .nav_btn {
   margin-right: 10px;
   color: #fff;
   border: 0;
@@ -130,8 +130,48 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#nav .navber_right .navber_button button:hover {
+#nav .navber_right .navber_button .nav_btn:hover {
   background-position: bottom center;
+}
+#nav .navber_right .navber_button .my_offcanvas .offcanvas-header {
+  position: relative;
+}
+#nav .navber_right .navber_button .my_offcanvas .offcanvas-header .close_btn {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  padding: 0.25em;
+  color: #000;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.4;
+  right: 40px;
+  top: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#nav .navber_right .navber_button .my_offcanvas .offcanvas-header .close_btn:hover {
+  opacity: 1;
+}
+#nav .navber_right .navber_button .offcanvas-body .menu_logo {
+  margin-bottom: 80px;
+  margin-left: 40px;
+  margin-top: 50px;
+  width: 100%;
+}
+#nav .navber_right .navber_button .offcanvas-body .nav_manu_social_links ul {
+  margin-left: 40px;
+}
+#nav .navber_right .navber_button .offcanvas-body .nav_manu_social_links li a {
+  color: #203656;
+  margin-right: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#nav .navber_right .navber_button .offcanvas-body .nav_manu_social_links li a:hover {
+  color: #fe4f70;
 }
 
 #blog .blog_thum {
@@ -1796,4 +1836,187 @@ footer .footer_inner .backTOtop:hover {
 .details_content .post_bottom .tags a:hover {
   color: #fe4f70;
   border-color: #fe4f70;
+}
+.details_content .post_author {
+  margin-top: 50px;
+  background: #f1f8ff;
+  padding: 30px;
+}
+.details_content .post_author .thumb {
+  float: left;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.details_content .post_author .thumb:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.details_content .post_author .thumb a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.details_content .post_author .details {
+  margin-left: 130px;
+}
+.details_content .post_author .details h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #203656;
+  margin-bottom: 10px;
+}
+.details_content .post_author .details p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8f9bad;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+.details_content .post_author .details ul li a {
+  color: #203656;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.details_content .post_author .details ul li a:hover {
+  color: #fe4f70;
+}
+.details_content .post_box {
+  margin-top: 50px;
+}
+.details_content .post_box .prev_post {
+  border: solid 1px #ebebeb;
+  border-radius: 10px;
+  padding: 30px;
+  width: 356px;
+  margin-right: 20px;
+}
+.details_content .post_box .prev_post span {
+  display: block;
+  color: #707a88;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.details_content .post_box .prev_post h5 a {
+  font-size: 18px;
+  color: #203656;
+  font-weight: 700;
+  line-height: 28px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.details_content .post_box .prev_post h5 a:hover {
+  color: #fe4f70;
+}
+.details_content .section_header h3 {
+  margin-bottom: 22px;
+}
+.details_content .form_control {
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+.details_content .form_control .common_notes {
+  color: #707a88;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.details_content .form_control .comment_form label {
+  font-weight: 700;
+  color: #707a88;
+}
+.details_content .form_control .comment_form textarea {
+  display: block;
+  border-radius: 25px;
+  width: 100%;
+  height: 120px;
+  padding: 8px 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #8f9bad;
+  background-color: #fff;
+  background-image: none;
+  border: solid 1px #ebebeb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+.details_content .form_control .comment_form textarea:focus {
+  border-color: #fe4f70;
+}
+.details_content .form_control .comment_form_author {
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+.details_content .form_control .comment_form_author label {
+  font-weight: 700;
+  color: #707a88;
+  text-transform: capitalize;
+}
+.details_content .form_control .comment_form_author input {
+  display: block;
+  border-radius: 25px;
+  width: 100%;
+  padding: 8px 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #8f9bad;
+  background-color: #fff;
+  background-image: none;
+  border: solid 1px #ebebeb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.details_content .form_control .comment_form_author input:focus {
+  border-color: #fe4f70;
+}
+.details_content .form_control .from_check {
+  margin-bottom: 20px;
+}
+.details_content .form_control .from_check input {
+  outline: none;
+}
+.details_content .form_control .from_check label {
+  color: #707a88;
+  font-size: 14px;
+}
+.details_content .form_control .form_submit {
+  margin-bottom: 1rem;
+}
+.details_content .form_control .form_submit .submit {
+  border: 0;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  padding: 9.5px 36px;
+  color: #fff;
+  background: #fe4f70;
+  background: -webkit-gradient(linear, left top, right top, from(#fe4f70), color-stop(51%, #ffa387), to(#fe4f70));
+  background: linear-gradient(to right, #fe4f70 0%, #ffa387 51%, #fe4f70 100%);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: 200% auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.details_content .form_control .form_submit .submit:hover {
+  color: #fff;
+  background-position: right center;
 }/*# sourceMappingURL=style.css.map */
