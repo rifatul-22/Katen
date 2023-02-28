@@ -127,6 +127,33 @@ body{
                     background-position:bottom center;
                 }
             }
+            .search_model{
+                // position: relative;
+                .search_modal_dialog{
+                    width: 1366px;
+                    height: 100%;
+                    .search_modal_content{
+                        position: fixed;
+                        width: 1366px;
+                        height: 150vh;
+                        margin-left: -433px;
+                        margin-top: -30px;
+                        .search_modal_header{
+                            position: relative;
+                            border-bottom: none;
+                            .search_modal_header_content{
+                                width: 650px;
+                                height: 114px;
+                            }
+                            .btn_close{
+                                position: absolute;
+                                top: 25px;
+                                right: 45px;
+                            }
+                        }
+                    }
+                }
+            }
             .my_offcanvas{
                 .offcanvas-header{
                     position: relative;
@@ -156,9 +183,80 @@ body{
                     margin-top: 50px;
                     width: 100%;
                 }
-
-
+                .main_menu{
+                    margin-left: 40px;
+                    ul .main_menu_li{
+                        position: relative;
+                        transition: 0.3s;
+                        &::after{
+                            content:"";
+                            display:block;
+                            height:1px;
+                            margin-bottom:10px;
+                            margin-top:10px;
+                            width:100%;
+                            background:#ebebeb;
+                            background:linear-gradient(to right,#ebebeb 0%,transparent 100%);
+                        }
+                        &:hover .sub_menu{
+                            visibility: visible;
+                            opacity: 1;
+                            background: #fff;
+                        }
+                        a{
+                            color: #203656;
+                            font-family: "Poppins",sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            text-transform: capitalize;
+                            position: relative;
+                            &.mm_active{
+                                color: #fe4f70;
+                            }
+                        }
+                        i{
+                            border: solid 1px #ebebeb;
+                            border-radius: 5px;
+                            font-size: 10px;
+                            display: inline-block;
+                            padding: 10px;
+                            line-height: 1;
+                            cursor: pointer;
+                            color: #fe4f70;
+                            position: absolute;
+                            top: 0;
+                            right: 70px;
+                            transform: rotate(0deg);
+                            transition: all .2s ease-in-out;
+                            // -webkit-backface-visibility: hidden;
+                            &:hover{
+                                transform: rotate(180deg);
+                            }
+                        }
+                        .sub_menu{
+                            display: block;
+                            padding: 10px 20px;
+                            position: absolute;
+                            top: 20px;
+                            z-index: 9999999999999;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: all 0.3s ease-in-out;
+                            .sub_menu_li{
+                                padding: 5px 0;
+                                a{
+                                    color: #79889e;
+                                    transition: 0.3s;
+                                    &:hover{
+                                        color: #203656;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 .nav_manu_social_links{
+                    margin-top: 88px;
                     ul{
                         margin-left: 40px;
                     }
