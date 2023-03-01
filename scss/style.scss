@@ -144,6 +144,50 @@ body{
                             .search_modal_header_content{
                                 width: 650px;
                                 height: 114px;
+                                position: absolute;
+                                top: 180px;
+                                left: 50%;
+                                transform: translate(-50%);
+                                h3{
+                                    font-weight: 700;
+                                    color: #203656;
+                                    margin-bottom: 33px;
+                                    line-height: 28px;
+                                }
+                                .input_button{
+                                    .form_control{
+                                        display: block;
+                                        width: 548px;
+                                        border-radius: 25px;
+                                        // width: 100%;
+                                        padding: 8px 24px;
+                                        font-size: 14px;
+                                        line-height: 1.6;
+                                        color: #909090;
+                                        background-color: #fff;
+                                        background-image: none;
+                                        border: solid 1px #ebebeb;
+                                        box-shadow: none;
+                                        outline: none;
+                                        &:focus{
+                                            border-color: #fe4f70;
+                                        }
+                                    }
+                                    button{
+                                        color: #fff;
+                                        padding: 13px 40px;
+                                        font-size: 16px;
+                                        border-radius: 25px;
+                                        font-weight: 400;
+                                        display: inline-block;
+                                        background: #fe4f70;
+                                        background: -webkit-linear-gradient(left,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+                                        background: linear-gradient(to right,#fe4f70 0%,#ffa387 51%,#fe4f70 100%);
+                                        background-size: 200% auto;
+                                        outline: none;
+                                        border: none;
+                                    }
+                                }
                             }
                             .btn_close{
                                 position: absolute;
@@ -202,6 +246,11 @@ body{
                             visibility: visible;
                             opacity: 1;
                             background: #fff;
+                            li a{
+                                &.sm_active{
+                                    color: #fe4f70;
+                                }
+                            }
                         }
                         a{
                             color: #203656;

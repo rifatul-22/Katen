@@ -151,6 +151,49 @@ body {
 #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content {
   width: 650px;
   height: 114px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+#nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content h3 {
+  font-weight: 700;
+  color: #203656;
+  margin-bottom: 33px;
+  line-height: 28px;
+}
+#nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button .form_control {
+  display: block;
+  width: 548px;
+  border-radius: 25px;
+  padding: 8px 24px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #909090;
+  background-color: #fff;
+  background-image: none;
+  border: solid 1px #ebebeb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+#nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button .form_control:focus {
+  border-color: #fe4f70;
+}
+#nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button button {
+  color: #fff;
+  padding: 13px 40px;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: 400;
+  display: inline-block;
+  background: #fe4f70;
+  background: -webkit-gradient(linear, left top, right top, from(#fe4f70), color-stop(51%, #ffa387), to(#fe4f70));
+  background: linear-gradient(to right, #fe4f70 0%, #ffa387 51%, #fe4f70 100%);
+  background-size: 200% auto;
+  outline: none;
+  border: none;
 }
 #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
   position: absolute;
@@ -208,6 +251,9 @@ body {
   visibility: visible;
   opacity: 1;
   background: #fff;
+}
+#nav .navber_right .navber_button .offcanvas-body .main_menu ul .main_menu_li:hover .sub_menu li a.sm_active {
+  color: #fe4f70;
 }
 #nav .navber_right .navber_button .offcanvas-body .main_menu ul .main_menu_li a {
   color: #203656;

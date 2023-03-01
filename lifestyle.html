@@ -79,19 +79,93 @@
               </ul>
             </div>
             <div class="navber_button">
-               <button><i class="fa-solid fa-magnifying-glass"></i></button>
-               <!-- <button><i class="fa-solid fa-equals"></i></button> -->
-               <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-equals"></i></button>
+              <!-- Button trigger modal -->
+              <button type="button" class="nav_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                 <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
 
-               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                  <div class="offcanvas-header">
-                        <!-- <h5 id="offcanvasRightLabel"><i class="fa-solid fa-equals"></i></h5> -->
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-close"></i></button>
-                  </div>
-                  <div class="offcanvas-body">
-                      
-                  </div>
-               </div>
+             <!-- Modal -->
+             <div class="modal fade search_model" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog search_modal_dialog">
+                    <div class="modal-content search_modal_content">
+                      <div class="modal-header search_modal_header">
+                         <!-- <h5 class="modal-title text-center" id="exampleModalLabel">Modal title</h5> -->
+                         <div class="search_modal_header_content">
+                             <h3 class=" text-center">Press ESC to close</h3>
+                             <div class="input_button d-flex">
+                                <input class="form_control me-2" placeholder="Search and press enter ..." type="text" name="s" id="search" value="" aria-label="Search">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                             </div>
+                         </div>
+                         <button type="button" class="btn-close btn_close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    </div>
+                 </div>
+             </div>
+              <button class="btn btn-primary nav_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-equals"></i></button>
+
+              <div class="offcanvas offcanvas-end my_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                 <div class="offcanvas-header">
+                       <button type="button" class="btn-close text-reset close_btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body">
+                     <div class="menu_logo">
+                        <a href="#"><img src="img/katen_logo.svg" alt=""></a>
+                     </div>
+                     <div class="main_menu">
+                         <ul>
+                            <li class="main_menu_li">
+                               <a href="index.html">Home</a>
+                               <i class="fa-solid fa-chevron-down rotated"></i>
+                               <ul class="sub_menu">
+                                  <li class="sub_menu_li"><a href="#"> Magazine</a></li>
+                                   <li class="sub_menu_li"><a href="#">Personal</a></li>
+                                   <li class="sub_menu_li"><a href="#">Personal Alt</a></li>
+                                   <li class="sub_menu_li"><a href="#">Classic</a></li>
+                                   <li class="sub_menu_li"><a href="#">Minimal</a></li>
+                               </ul>
+                            </li>
+                            <li class="main_menu_li">
+                               <a href="lifestyle.html" class="mm_active">lifestyle</a>
+                            </li>
+                            <li class="main_menu_li">
+                               <a href="index.html">Culture</a>
+                            </li>
+                            <li class="main_menu_li">
+                               <a href="index.html">Features</a>
+                               <i class="fa-solid fa-chevron-down rotated"></i>
+                               <ul class="sub_menu">
+                                  <li class="sub_menu_li"><a href="#">Post Layouts</a></li>
+                                   <li class="sub_menu_li"><a href="#">Post Formats</a></li>
+                                   <li class="sub_menu_li"><a href="details.html">Archive</a></li>
+                                   <li class="sub_menu_li"><a href="author.html">Author Page</a></li>
+                                   <li class="sub_menu_li"><a href="contact.html">Contact Page</a></li>
+                                   <li class="sub_menu_li"><a href="#">Paginated Post</a></li>
+                                   <li class="sub_menu_li"><a href="404.html">404 Page</a></li>
+                               </ul>
+                            </li>
+                            <li class="main_menu_li">
+                             <a href="#">Shop</a>
+                             <i class="fa-solid fa-chevron-down rotated"></i>
+                               <ul class="sub_menu">
+                                  <li class="sub_menu_li"><a href="#">Cart</a></li>
+                                  <li class="sub_menu_li"><a href="#">Checkout</a></li>
+                               </ul>
+                          </li>
+                         </ul>
+                     </div>
+                     <div class="nav_manu_social_links">
+                       <ul class="list-inline">
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                     </div>
+                 </div>
+              </div>
             </div>
           </div>
         </div>
