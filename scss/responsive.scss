@@ -1,0 +1,230 @@
+
+@media (min-width: 1400px){}
+@media (min-width: 1200px) and (max-width: 1399.98px){}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* home page responsive css start */
+    /* home page nav section css start */
+    #nav .nav_menu {
+        margin-left: -20px;
+    }
+    #nav .nav_menu li a {
+        padding: 8px 10px;
+    }
+    #nav .navber_right .social_links {
+        display: none;
+    }
+    #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
+        position: absolute;
+        top: 25px;
+        right: 272px;
+    }
+    /* home page nav section css end */
+    /* home page Blog section css start */
+    #blog .blog_thum .blog_img_item {
+        width: 590px;
+    }
+    #blog .section_header {
+        margin-top: 40px;
+    }
+    #blog .blog_thum_2 {
+        margin-top: 25px;
+        padding: 20px;
+        width: 590px;
+    }
+    #blog .blog_thum_2 .blog_thum_2_img .blog_inner {
+        width: 272px;
+        height: 180px;
+    }
+    #blog .blog_thum_2 .blog_thum_2_img span {
+        height: 40px;
+        line-height: 44px;
+        bottom: -15px;
+        width: 40px;
+    }
+    #blog .blog_thum_2 .details {
+        margin-top: 20px;
+    }
+    #blog .blog_thum_2 .details img {
+        margin-right: 8px;
+        width: 40px;
+        height: 40px;
+    }
+    #blog .blog_thum_2 .details ul li {
+        margin-right: 6px;
+    }
+    #blog .blog_thum_2 .details h5 a {
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    #blog .blog_thum_2 .post_blog {
+        margin-left: 14px;
+        width: 274px;
+    }
+    #blog .blog_thum_2 .post_blog .thumb {
+        max-width: 100px;
+    }
+    #blog .blog_thum_2 .post_blog .post_blog_details {
+        width: 150px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    /* home page Blog section css end */
+    /* home page Blog add section css start */
+    #blog .add {
+        margin-top: 40px;
+    }
+    #blog .add .add_img a img {
+        width: 590px;
+    }
+    /* home page Blog add section css end */
+    /* home page Blog Trand section css start */
+    #blog .blog_thum_2 .blog_thum_2_trand {
+        margin-right: 20px;
+        margin-left: -5px;
+    }
+    #blog .blog_thum_2 .blog_thum_2_img .trand_inner {
+        width: 272px;
+        height: 180px;
+    }
+    #blog .blog_thum_2 .details .para {
+        width: 270px;
+    }
+    #blog .blog_thum_2 .details p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    // #blog .blog_thum_2 .post_blog .thumb a .inner {
+    //     width: 110px;
+    // }
+    // #blog .blog_thum_2 .post_blog .thumb a .inner img {
+    //     height: 80px;
+    // }
+    // #blog .blog_thum_2 .post_blog .post_blog_details {
+    //     width: 145px;
+    //     margin-left: 29px;
+    // }
+    /* home page Blog Trand section css end */
+    /* home page Blog Inspiration section css start */
+    #blog .inspiration_slick_icon {
+        left: 84%;
+    }
+    #blog .insp_slider .insp_img_item {
+        width: 290px;
+        height: 300px;
+    }
+    /* home page Blog Inspiration section css end */
+    /* home page Blog Latest posts section css start */
+    #blog .latest_posts {
+        padding: 20px 0;
+        padding-left: 20px;
+        margin-top: 30px;
+        width: 590px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner {
+        display: inline-block;
+        width: 330px;
+        height: 220px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details {
+        margin-left: 20px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list {
+        margin-left: 40px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list li img {
+        width: 32px;
+        height: 32px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details .post_title {
+        margin: 10px 0;
+        margin-left: 40px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details p {
+        width: 280px;
+        margin-left: 40px;
+    }
+    #blog .latest_posts .latest_posts_item .latest_posts_details .social_share{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    /* home page Blog Latest posts section css end */
+
+    /* home page Blog post Tabs section css start */
+    #blog .post_tabs {
+        margin-left: -29px;
+    }
+    #blog .post_tabs ul.nav-tabs li button {
+        padding: 6px 30px;
+    }
+    #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content ul li {
+        margin-top: 46px;
+        margin-right: 60px;
+    }
+    /* home page Blog post Tabs section css end */
+    /* home page our_information section css start */
+    #blog .our_information {
+        margin-left: -29px;
+    }
+    /* home page our_information section css end */
+    /* home page popular_post section css start */
+    #blog .popular_post {
+        margin-left: -29px;
+    }
+    #blog .popular_post .popular_post_item .popular_post_item_content ul li {
+        margin-top: 60px;
+        margin-right: 60px;
+    }
+    /* home page popular_post section css end */
+    /* home page explore section css start */
+    #blog .explore {
+        margin-left: -29px;
+    }
+    #blog .explore .title {
+        margin-bottom: 15px;
+    }
+    /* home page explore section css end */
+    /* home page newsletter section css start */
+    #blog .newsletter {
+        margin-left: -29px;
+    }
+    /* home page newsletter section css end */
+    /* home page celebration section css start */
+    #blog .celebration {
+        margin-left: -29px;
+    }
+    /* home page celebration section css end */
+    /* home page celebration section css start */
+    #blog .sponse_add {
+        margin-left: -29px;
+    }
+    #blog .sponse_add a img{
+        width: 325px;
+    }
+    /* home page celebration section css end */
+    /* home page taggs section css start */
+    #blog .taggs {
+        margin-left: -29px;
+    }
+    /* home page taggs section css end */
+
+
+
+
+
+
+
+
+
+    /* home page Blog instagram section css start */
+    #instagram .instagram_item {
+        width: 159.083px;
+        height: 159.083px;
+    }
+    /* home page Blog instagram section css end */
+    /* home page responsive css end */
+}
+@media (min-width: 768px) and (max-width: 991.98px){}
+@media (min-width: 576px) and (max-width: 767.98px){}
+@media (max-width: 575.98px){}
