@@ -201,4 +201,816 @@
   }
   /* home page Blog instagram section css end */
   /* home page responsive css end */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* home page responsive css start */
+  /* home page nav section css start */
+  #nav .navber_right .social_links ul {
+    display: none;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
+    position: absolute;
+    top: 25px;
+    right: 330px;
+  }
+  /* home page nav section css end */
+  /* home page Blog section css start */
+  #blog .blog_thum .blog_img_item {
+    width: 690px;
+  }
+  #blog .section_header {
+    margin-top: 40px;
+  }
+  #blog .blog_thum_2 {
+    margin-top: 25px;
+    padding: 30px;
+    width: 690px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .blog_inner {
+    width: 310px;
+    height: 210px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img span {
+    height: 40px;
+    line-height: 44px;
+    bottom: -15px;
+    width: 40px;
+  }
+  #blog .blog_thum_2 .details {
+    margin-top: 20px;
+  }
+  #blog .blog_thum_2 .details img {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  #blog .blog_thum_2 .details ul li {
+    margin-right: 6px;
+  }
+  #blog .blog_thum_2 .details h5 a {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  #blog .blog_thum_2 .details p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #blog .blog_thum_2 .post_blog {
+    margin-left: 14px;
+    width: 274px;
+  }
+  #blog .blog_thum_2 .post_blog .thumb {
+    max-width: 100px;
+  }
+  #blog .blog_thum_2 .post_blog .post_blog_details {
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  /* home page Blog section css end */
+  /* home page Blog add section css start */
+  #blog .add {
+    margin-top: 30px;
+  }
+  #blog .add .add_img a img {
+    width: 690px;
+  }
+  /* home page Blog add section css end */
+  /* home page blog thum 2 trand section css start */
+  #blog .blog_thum_2 .blog_thum_2_trand {
+    margin-right: 28px;
+    width: 300px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner {
+    width: 300px;
+    height: 208px;
+  }
+  /* home page blog thum 2 trand section css end */
+  /* home page blog insp slider section css start */
+  #blog .insp_slider .insp_img_item {
+    width: 320px;
+    margin-bottom: 0px;
+  }
+  #blog .insp_slider .insp_details .post_title {
+    font-size: 20px;
+  }
+  #blog .insp_slider .insp_details .post_title a {
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+  /* home page blog insp slider section css end */
+  /* home page Blog latest posts section css start */
+  #blog .latest_posts {
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+  }
+  #blog .latest_posts .latest_posts_item {
+    overflow: hidden;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner {
+    width: 270px;
+    height: 200px;
+    display: inline-block;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner .latest_inner_img {
+    height: 200px;
+  }
+  /* home page Blog latest posts section css end */
+  /* home page Blog post tabs section css start */
+  #blog .post_tabs ul.nav-tabs li button {
+    padding: 10px 123px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content .post_title a {
+    margin-left: 25px;
+    top: 6px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content ul li {
+    margin-top: 30px;
+    margin-right: 422px;
+    margin-bottom: 30px;
+  }
+  /* home page Blog post tabs section css end */
+  /* home page Blog popular post section css start */
+  #blog .popular_post .popular_post_item .popular_post_item_content .post_title a {
+    margin-left: 25px;
+    top: 6px;
+  }
+  #blog .popular_post .popular_post_item .popular_post_item_content ul li {
+    margin-right: 426px;
+    margin-bottom: 30px;
+  }
+  /* home page Blog celebration section css end */
+  /* home page Blog celebration section css end */
+  /* home page Blog sponse add section css start */
+  #blog .sponse_add .adds_title {
+    margin-bottom: 20px;
+  }
+  #blog .sponse_add a img {
+    margin-left: 165px;
+  }
+  /* home page Blog sponse add section css end */
+  /* home page instagram section css start */
+  #instagram .instagram_item {
+    width: 236.083px;
+    margin-bottom: 20px;
+  }
+  #instagram .instagram_item a img {
+    height: 236.083px;
+  }
+  /* home page instagram section css end */
+  /* home page responsive css end */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* home page responsive css start */
+  /* home page nav section css start */
+  #nav .navber_right .social_links ul {
+    display: none;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
+    top: 30px;
+    right: 430px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content {
+    width: 500px;
+    height: 114px;
+    top: 200px;
+  }
+  .offcanvas-end {
+    width: 350px;
+  }
+  /* home page nav section css end */
+  /* home page Blog section css start */
+  #blog .blog_thum .blog_img_item {
+    width: 510px;
+    height: 365px;
+  }
+  #blog .blog_thum .blog_img_item .blog_img img {
+    width: 510px;
+    height: 365px;
+  }
+  #blog .blog_thum .details {
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+  }
+  #blog .blog_thum .details .catagory {
+    margin-bottom: 16px;
+  }
+  #blog .blog_thum .details .post_title {
+    font-size: 26px;
+  }
+  #blog .blog_thum .details .post_title a {
+    margin-bottom: 10px;
+    line-height: 35px;
+  }
+  /* home page Blog section css end */
+  /* home page Blog thum 2 section css start */
+  #blog .section_header {
+    margin-top: 0px;
+  }
+  #blog .blog_thum_2 {
+    margin-top: 25px;
+    padding: 20px;
+    width: 510px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .blog_inner {
+    width: 240px;
+    height: 170px;
+  }
+  #blog .blog_thum_2 .details {
+    margin-top: 20px;
+  }
+  #blog .blog_thum_2 .details img {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  #blog .blog_thum_2 .details ul li {
+    margin-right: -5px;
+  }
+  #blog .blog_thum_2 .details ul li a::after {
+    margin-left: 8px;
+    margin-right: 7px;
+  }
+  #blog .blog_thum_2 .details h5 a {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  #blog .blog_thum_2 .details p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #blog .blog_thum_2 .post_blog {
+    margin-left: 14px;
+    width: 274px;
+  }
+  #blog .blog_thum_2 .post_blog .thumb {
+    max-width: 80px;
+    margin-left: 10px;
+  }
+  #blog .blog_thum_2 .post_blog .post_blog_details {
+    width: 100px;
+    margin-bottom: 0px;
+  }
+  /* home page Blog thum 2 section css end */
+  /* home page Blog add section css start */
+  #blog .add {
+    margin-top: 30px;
+  }
+  #blog .add .add_img a img {
+    width: 510px;
+    margin-bottom: 20px;
+  }
+  /* home page Blog add section css end */
+  /* home page Blog thum 2 trand section css start */
+  #blog .blog_thum_2 {
+    margin-bottom: 30px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_trand {
+    margin-right: 14px;
+    width: 233px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img span {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner {
+    width: 225px;
+    height: 160px;
+  }
+  #blog .blog_thum_2 .details .para {
+    padding-bottom: 20px;
+    width: 200px;
+  }
+  /* home page Blog thum 2 trand section css end */
+  /* home page Blog Inspiration section css start */
+  #blog .inspiration_slick_icon {
+    left: 84%;
+  }
+  #blog .insp_slider .insp_img_item {
+    width: 238px;
+    height: 300px;
+  }
+  #blog .insp_slider .insp_details .catagory {
+    margin-bottom: 10px;
+  }
+  #blog .insp_slider .insp_details .post_title {
+    font-size: 18px;
+  }
+  #blog .insp_slider .insp_details ul li {
+    font-size: 13px;
+    margin-right: 0px;
+  }
+  /* home page Blog Inspiration section css end */
+  /* home page Blog latest posts section css start */
+  #blog .latest_posts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog .latest_posts .latest_posts_item {
+    width: 220px;
+    margin-right: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details {
+    margin-left: 0px;
+    width: 210px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list {
+    margin-top: 20px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list li img {
+    width: 32px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details p {
+    width: 222px;
+    line-height: 28px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .social_share .icon_share {
+    margin-top: 20px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .social_share .more_button {
+    margin-top: 19px;
+    margin-right: -40px;
+  }
+  #blog .latest_posts .latest_posts_item_load {
+    height: 108px;
+    margin-top: 428px;
+  }
+  /* home page Blog latest posts section css end */
+  /* home page Blog post tabs section css start */
+  #blog .post_tabs ul.nav-tabs li button {
+    padding: 8px 78px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content .post_title a {
+    font-size: 14px;
+    top: 7px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content ul li {
+    margin-top: 30px;
+    margin-right: 258px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  /* home page Blog post tabs section css end */
+  /* home page Blog popular_post section css start */
+  #blog .popular_post .popular_post_item .popular_post_item_content .post_title a {
+    font-size: 14px;
+    top: 7px;
+  }
+  #blog .popular_post .popular_post_item .popular_post_item_content ul li {
+    margin-top: 30px;
+    margin-right: 258px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  /* home page Blog popular_post section css end */
+  /* home page Blog sponse add section css start */
+  #blog .sponse_add a img {
+    margin-left: 90px;
+  }
+  /* home page Blog sponse add section css end */
+  /* home page Blog instagram section css start */
+  #instagram .instagram_item {
+    width: 176.083px;
+    margin-bottom: 5px;
+  }
+  #instagram .instagram_item a img {
+    height: 176.083px;
+  }
+  /* home page Blog instagram section css end */
+  /* home page Blog footer section css start */
+  footer .footer_inner .copyright {
+    margin-left: 125px;
+  }
+  footer .footer_inner .social_links {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  footer .footer_inner .backTOtop {
+    margin-left: 190px;
+  }
+  /* home page Blog footer section css end */
+  /* home page responsive css end */
+}
+@media (max-width: 575.98px) {
+  /* home page responsive css start */
+  /* home page nav section css start */
+  #nav .navber_right .social_links ul {
+    display: none;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
+    top: 60px;
+    right: 400px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content {
+    width: 400px;
+    height: 114px;
+    top: 200px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button button {
+    padding: 8px 26px;
+  }
+  .offcanvas-end {
+    width: 300px;
+  }
+  /* home page nav section css end */
+  /* home page Blog section css start */
+  #blog .blog_thum .blog_img_item {
+    width: 542px;
+    height: 365px;
+  }
+  #blog .blog_thum .blog_img_item .blog_img img {
+    width: 542px;
+    height: 365px;
+  }
+  #blog .blog_thum .details {
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+  }
+  #blog .blog_thum .details .catagory {
+    margin-bottom: 16px;
+  }
+  #blog .blog_thum .details .post_title {
+    font-size: 26px;
+  }
+  #blog .blog_thum .details .post_title a {
+    margin-bottom: 10px;
+    line-height: 35px;
+  }
+  #blog .section_header {
+    margin-top: -20px;
+  }
+  /* home page Blog section css end */
+  /* home page Blog thum 2 section css start */
+  #blog .blog_thum_2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .blog_inner {
+    width: 490px;
+    height: 352px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img span {
+    bottom: -16px;
+  }
+  #blog .blog_thum_2 .details h5 a {
+    margin: 15px 0;
+  }
+  #blog .blog_thum_2 .details p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  #blog .blog_thum_2 .post_blog {
+    margin-left: 0px;
+    border-bottom: none;
+    margin-bottom: 22px;
+    width: 490px;
+    height: 100px;
+  }
+  #blog .blog_thum_2 .post_blog .post_blog_details {
+    width: 360px;
+    margin-top: 5px;
+  }
+  /* home page Blog thum 2 section css end */
+  /* home page Blog add section css start */
+  #blog .add {
+    margin-top: 20px;
+  }
+  #blog .add .add_img a img {
+    width: 550px;
+    margin-bottom: 40px;
+  }
+  /* home page Blog add section css end */
+  /* home page Blog thum 2 section css start */
+  #blog .blog_thum_2 {
+    margin-bottom: 40px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner {
+    width: 480px;
+    height: 360px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner .trand_img {
+    height: 360px;
+  }
+  #blog .blog_thum_2 .details .para {
+    width: 460px;
+  }
+  /* home page Blog thum 2 section css end */
+  /* home page Blog Inspiration section css start */
+  #blog .inspiration_slick_icon {
+    left: 82%;
+  }
+  #blog .insp_slider .insp_img_item {
+    width: 266px;
+  }
+  #blog .insp_slider .insp_img_item .insp_img_thumb {
+    height: 270px;
+  }
+  #blog .insp_slider .insp_details {
+    top: 150px;
+  }
+  #blog .insp_slider .insp_details .post_title {
+    font-size: 18px;
+  }
+  #blog .insp_slider .insp_details .catagory {
+    margin-bottom: 10px;
+  }
+  /* home page Blog Inspiration section css end */
+  /* home page Blog latest posts section css start */
+  #blog .latest_posts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 1540px;
+  }
+  #blog .latest_posts .latest_posts_item {
+    width: 491px;
+    margin-right: 0px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img {
+    width: 490px;
+    height: 213px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner {
+    width: 490px;
+    height: 213px;
+    display: inline-block;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner .latest_inner_img {
+    width: 490px;
+    height: 213px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details {
+    margin-left: 0px;
+    width: 490px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list {
+    margin-top: 20px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .latest_posts_list li img {
+    width: 32px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details p {
+    width: 490px;
+    line-height: 28px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .social_share .icon_share {
+    margin-top: 20px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details .social_share .more_button {
+    margin-top: 19px;
+    margin-right: -40px;
+  }
+  #blog .latest_posts .latest_posts_item_load {
+    height: 108px;
+    margin-top: 428px;
+  }
+  #blog .latest_posts .latest_posts_item_load {
+    height: 108px;
+    margin-top: 0px;
+    margin-left: 160px;
+  }
+  /* home page Blog latest posts section css end */
+  /* home page Blog post_tabs section css start */
+  #blog .post_tabs ul.nav-tabs li button {
+    padding: 8px 87px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content .post_title a {
+    top: 8px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content ul li {
+    margin-right: 293px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  /* home page Blog post_tabs section css end */
+  /* home page Blog popular_post section css start */
+  #blog .popular_post .popular_post_item .popular_post_item_content .post_title a {
+    top: 7px;
+  }
+  #blog .popular_post .popular_post_item .popular_post_item_content ul li {
+    margin-right: 293px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  /* home page Blog popular_post section css end */
+  /* home page Blog sponse_add section css start */
+  #blog .sponse_add a img {
+    margin-left: 100px;
+  }
+  /* home page Blog sponse_add section css end */
+  /* home page Blog instagram section css start */
+  #instagram .instagram_item {
+    width: 187.083px;
+    margin-bottom: 5px;
+  }
+  #instagram .instagram_item a img {
+    height: 187.083px;
+  }
+  /* home page Blog instagram section css end */
+  /* home page Blog footer section css start */
+  footer .footer_inner .copyright {
+    margin-left: 125px;
+  }
+  footer .footer_inner .social_links {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  footer .footer_inner .backTOtop {
+    margin-left: 190px;
+  }
+  /* home page Blog footer section css end */
+  /* home page responsive css end */
+}
+@media (max-width: 360px) {
+  /* home page responsive css start */
+  /* home page nav section css start */
+  #nav .navber_right .social_links ul {
+    display: none;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .btn_close {
+    top: 60px;
+    right: 620px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content {
+    width: 400px;
+    height: 114px;
+    top: 300px;
+    margin-left: -40px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button button {
+    padding: 8px 26px;
+  }
+  #nav .navber_right .navber_button .search_model .search_modal_dialog .search_modal_content .search_modal_header .search_modal_header_content .input_button {
+    width: 320px;
+  }
+  .offcanvas-end {
+    width: 300px;
+  }
+  /* home page nav section css end */
+  /* home page Blog section css start */
+  #blog .blog_thum .blog_img_item {
+    width: 330px;
+  }
+  #blog .blog_thum .blog_img_item .blog_img img {
+    width: 330px;
+  }
+  /* home page Blog section css end */
+  /* home page blog_thum_2 section css start */
+  #blog .blog_thum_2 {
+    width: 330px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .blog_inner {
+    width: 268px;
+    height: 190px;
+  }
+  #blog .blog_thum_2 .details img {
+    margin-right: 6px;
+    width: 32px;
+  }
+  #blog .blog_thum_2 .details ul li {
+    margin-right: 5px;
+  }
+  #blog .blog_thum_2 .post_blog {
+    width: 270px;
+  }
+  #blog .blog_thum_2 .post_blog .post_blog_details {
+    width: 140px;
+    margin-top: 0px;
+  }
+  /* home page blog_thum_2 section css end */
+  /* home page Blog add section css start */
+  #blog .add {
+    margin-top: -15px;
+  }
+  #blog .add .add_img a img {
+    width: 330px;
+    margin-bottom: 30px;
+  }
+  /* home page Blog add section css end */
+  /* home page blog_thum_2 trand section css start */
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner {
+    width: 258px;
+    height: 190px;
+  }
+  #blog .blog_thum_2 .blog_thum_2_img .trand_inner .trand_img {
+    height: 220px;
+  }
+  /* home page blog_thum_2 trand section css end */
+  /* home page Blog Inspiration section css start */
+  #blog .inspiration_slick_icon {
+    left: 74%;
+  }
+  #blog .insp_slider .insp_img_item {
+    width: 158px;
+  }
+  #blog .insp_slider .insp_img_item .insp_img_thumb {
+    height: 250px;
+  }
+  #blog .insp_slider .insp_img_item .insp_img_thumb img {
+    width: 158px;
+    height: 250px;
+  }
+  /* home page Blog Inspiration section css end */
+  /* home page Blog latest_posts section css start */
+  #blog .latest_posts {
+    height: 1805px;
+  }
+  #blog .latest_posts .latest_posts_item {
+    width: 258px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img {
+    width: 258px;
+    height: 190px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner {
+    width: 258px;
+    height: 190px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_img .latest_inner .latest_inner_img {
+    width: 258px;
+    height: 190px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details {
+    width: 258px;
+  }
+  #blog .latest_posts .latest_posts_item .latest_posts_details p {
+    width: 258px;
+  }
+  #blog .latest_posts .latest_posts_item_load {
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 58px;
+  }
+  #blog .latest_posts .latest_posts_item_load .load_more .btn_simple {
+    padding: -0.5px 40px;
+  }
+  /* home page Blog latest_posts section css end */
+  /* home page Blog post_tabs section css start */
+  #blog .post_tabs ul.nav-tabs li button {
+    padding: 8px 33px;
+  }
+  #blog .post_tabs #navTap_iteam .navTap_iteam_content .nav_tap_post_item .nav_tap_post_item_content ul li {
+    margin-right: 76px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+  }
+  /* home page Blog post_tabs section css end */
+  /* home page Blog post_tabs section css start */
+  #blog .popular_post .popular_post_item .popular_post_item_content ul li {
+    margin-right: 76px;
+    margin-bottom: 10px;
+    margin-top: 65px;
+  }
+  /* home page Blog post_tabs section css end */
+  /* home page Blog sponse_add section css start */
+  #blog .sponse_add {
+    margin-top: -10px;
+  }
+  #blog .sponse_add a img {
+    margin-left: 2px;
+    width: 330px;
+  }
+  /* home page Blog sponse_add section css end */
+  /* home page Blog instagram section css start */
+  #instagram .instagram_item {
+    width: 170.083px;
+    margin-bottom: 5px;
+  }
+  #instagram .instagram_item a img {
+    width: 170.083px;
+    height: 170.083px;
+  }
+  #instagram .btn_instagram {
+    padding: -0.5px 19px;
+    font-size: 13px;
+    width: 208px;
+    height: 40px;
+  }
+  /* home page Blog instagram section css end */
+  /* home page Blog Footer section css start */
+  footer .footer_inner .copyright {
+    margin-left: 40px;
+  }
+  footer .footer_inner .backTOtop {
+    margin-left: 90px;
+  }
+  /* home page Blog Footer section css end */
+  /* home page responsive css end */
 }/*# sourceMappingURL=responsive.css.map */
