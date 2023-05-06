@@ -363,6 +363,25 @@
   }
   /* home page instagram section css end */
   /* home page responsive css end */
+  /* Author page responsive css start */
+  /* Author page Blog Footer section css start */
+  .latest_posts_next_page ul .page-item .page_numbers {
+    margin-bottom: 40px;
+  }
+  /* Author page Blog Footer section css end */
+  /* Author page responsive css end */
+  /* Contact page responsive css start */
+  /* Contact page contact_info_item section css start */
+  #contact_info .contact_info_item {
+    width: 220px;
+  }
+  /* Contact page contact_info_item section css end */
+  /* Contact page contact_input_name section css start */
+  #contact_form .input_name input {
+    width: 694px;
+  }
+  /* Contact page contact_input_name section css end */
+  /* Contact page responsive css end */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* home page responsive css start */
@@ -602,6 +621,40 @@
   }
   /* home page Blog footer section css end */
   /* home page responsive css end */
+  /* Lifestyle page responsive css start */
+  /* Lifestyle page Blog footer section css start */
+  #blog .latest_posts.lifestyle_latest_posts {
+    height: 1750px;
+  }
+  #blog .latest_posts .latest_posts_item_load {
+    margin-top: -20px;
+    margin-left: 156px;
+  }
+  /* Lifestyle page Blog footer section css end */
+  /* Lifestyle page responsive css end */
+  /* Author page responsive css start */
+  /* Author page lifestyle_latest_posts section css start */
+  #blog .latest_posts.lifestyle_latest_posts.author_latest_posts {
+    height: 2700px;
+  }
+  .latest_posts_next_page ul .page-item .page_numbers {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  /* Author page lifestyle_latest_posts section css end */
+  /* Author page responsive css end */
+  /* Contact page responsive css start */
+  /* Contact page contact_info_item section css start */
+  #contact_info .contact_info_item {
+    width: 518px;
+  }
+  /* Contact page contact_info_item section css end */
+  /* Contact page contact_input_name section css start */
+  #contact_form .input_name input {
+    width: 514px;
+  }
+  /* Contact page contact_input_name section css end */
+  /* Contact page responsive css end */
 }
 @media (max-width: 575.98px) {
   /* home page responsive css start */
@@ -837,6 +890,38 @@
   }
   /* home page Blog footer section css end */
   /* home page responsive css end */
+  /* Lifestyle page responsive css start */
+  /* Lifestyle page lifestyle_latest_posts section css start */
+  #blog .latest_posts.lifestyle_latest_posts {
+    margin-top: 0px;
+    height: 2850px;
+  }
+  /* Lifestyle page lifestyle_latest_posts section css end */
+  /* Lifestyle page responsive css end */
+  /* Author page responsive css start */
+  /* Author page lifestyle_latest_posts section css start */
+  #blog .latest_posts.lifestyle_latest_posts.author_latest_posts {
+    height: 4090px;
+  }
+  .latest_posts_next_page ul .page-item .page_numbers {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  /* Author page lifestyle_latest_posts section css end */
+  /* Author page responsive css end */
+  /* Contact page responsive css start */
+  /* Contact page contact_info_item section css start */
+  #contact_info .contact_info_item {
+    width: 540px;
+    margin-left: 12px;
+  }
+  /* Contact page contact_info_item section css end */
+  /* Contact page contact_input_name section css start */
+  #contact_form .input_name input {
+    width: 551px;
+  }
+  /* Contact page contact_input_name section css end */
+  /* Contact page responsive css end */
 }
 @media (max-width: 360px) {
   /* home page responsive css start */
@@ -1013,4 +1098,60 @@
   }
   /* home page Blog Footer section css end */
   /* home page responsive css end */
+  /* Lifestyle page responsive css start */
+  /* Lifestyle page Blog Footer section css start */
+  #blog .latest_posts.lifestyle_latest_posts {
+    height: 3360px;
+  }
+  /* Lifestyle page Blog Footer section css end */
+  /* Lifestyle page responsive css end */
+  /* Author page responsive css start */
+  /* Author page author_banner_content section css start */
+  #author_banner .author_banner_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #author_banner .author_banner_content .author_thum {
+    margin-left: 108px;
+    margin-bottom: 20px;
+  }
+  #author_banner .author_banner_content .author_details {
+    margin-left: 0px;
+  }
+  #author_banner .author_banner_content .author_details h1 {
+    margin-left: 82px;
+  }
+  #author_banner .author_banner_content .author_details p {
+    width: 276px;
+    text-align: center;
+  }
+  #author_banner .author_banner_content .author_details ul {
+    margin-left: 70px;
+  }
+  /* Author page author_banner_content section css end */
+  /* Author page lifestyle_latest_posts section css start */
+  #blog .latest_posts.lifestyle_latest_posts.author_latest_posts {
+    height: 4900px;
+  }
+  .latest_posts_next_page ul .page-item .page_numbers {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  /* Author page lifestyle_latest_posts section css end */
+  /* Author page responsive css end */
+  /* Contact page responsive css start */
+  /* Contact page contact_info_item section css start */
+  #contact_info .contact_info_item {
+    width: 338px;
+  }
+  /* Contact page contact_info_item section css end */
+  /* Contact page contact_input_name section css start */
+  #contact_form .input_name input {
+    width: 336px;
+  }
+  /* Contact page contact_input_name section css end */
+  /* Contact page responsive css end */
 }/*# sourceMappingURL=responsive.css.map */
