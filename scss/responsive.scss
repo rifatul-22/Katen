@@ -215,6 +215,83 @@
     }
     /* home page Blog instagram section css end */
     /* home page responsive css end */
+    /* Details page responsive css start */
+    /* Details page details_banner section css start */
+    #details_banner {
+        height: 400px;
+        background-attachment: unset;
+    }
+    #details_banner .details_banner_content h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    #details_banner .details_banner_content p {
+        margin-bottom: 26px;
+    }
+    /* Details page details_banner section css end */
+    /* Details page details_content section css start */
+    .details_content .para {
+        width: 580px;
+    }
+    .details_content .para p {
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    .details_content .images{
+       width: 590px;
+    }
+    .details_content .images span {
+        margin-left: 248px;
+    }
+    .details_content .para_img {
+        width: 590px;
+    }
+    .details_content .title {
+        width: 590px;
+    }
+    .details_content .title h3 {
+        font-size: 1.55rem;
+        margin-bottom: 15px;
+    }
+    .details_content .title p {
+        line-height: 26px;
+        margin-bottom: 15px;
+        width: 580px;
+    }
+    .details_content .details_img {
+        width: 590px;
+    }
+    .details_content .conclusion {
+        width: 590px;
+    }
+    .details_content .post_bottom {
+        padding-top: 25px;
+        width: 590px;
+    }
+    .details_content .post_author {
+        margin-top: 40px;
+        width: 590px;
+    }
+    .details_content .post_box {
+        margin-top: 40px;
+        width: 590px;
+    }
+    .details_content .post_box .prev_post {
+        padding: 20px;
+        width: 284px;
+        margin-right: 15px;
+    }
+    .details_content .post_box .prev_post h5 a {
+        font-size: 17px;
+    }
+    .details_content .form_control {
+        padding: 20px;
+        margin-top: 25px;
+        margin-bottom: 44px;
+        width: 590px;
+    }
+    /* Details page details_content section css end */
+    /* Details page responsive css end */
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     /* home page responsive css start */
@@ -400,6 +477,34 @@
     }
     /* Contact page contact_input_name section css end */
     /* Contact page responsive css end */
+    /* Details page responsive css start */
+    /* Details page details_banner section css start */
+    #details_banner {
+        height: 400px;
+        background-attachment: unset;
+    }
+    #details_banner .details_banner_content h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    #details_banner .details_banner_content p {
+        margin-bottom: 26px;
+    }
+    /* Details page details_banner section css end */
+    /* Details page details_content section css start */
+    .details_content .para_img p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .details_content .para_img .para_img_p4 span {
+        margin-left: 313px;
+    }
+    .details_content .post_box .prev_post {
+        padding: 20px;
+        width: 338px;
+    }
+    /* Details page details_content section css end */
+    /* Details page responsive css end */
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     /* home page responsive css start */
@@ -669,6 +774,90 @@
     }
     /* Contact page contact_input_name section css end */
     /* Contact page responsive css end */
+    /* Details page responsive css start */
+    /* Details page details_banner section css start */
+    #details_banner {
+        height: 300px;
+        background-attachment: unset;
+    }
+    #details_banner .details_banner_content h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #details_banner .details_banner_content p {
+        margin-bottom: 26px;
+    }
+    /* Details page details_banner section css end */
+    /* Details page details_content section css start */
+    .details_content .images span {
+        margin-left: 176px;
+        margin-bottom: 20px;
+    }
+    .details_content .para_img .para_img_p3 {
+        margin-top: -24px;
+        margin-left: 315px;
+    }
+    .details_content .para_img p {
+        line-height: 24px;
+        margin-bottom: 27px;
+    }
+    .details_content .para_img .para_img_p3 .span_2 {
+        width: 500px;
+        display: block;
+        margin-left: -315px;
+    }
+    .details_content .para_img .para_img_p4 span {
+        margin-left: 0px;
+    }
+    .details_content .title h3 {
+        font-size: 1.45rem;
+        margin-bottom: 15px;
+    }
+    .details_content .title p {
+        margin-bottom: 10px;
+    }
+    .details_content .post_box {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .details_content .post_box .prev_post {
+        padding: 20px;
+        width: 530px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .details_content .form_control {
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .details_content .post_bottom .share_links {
+        margin-left: 170px;
+        margin-bottom: 15px;
+    }
+    .details_content .post_bottom .share_links span {
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+    .details_content .post_bottom .tags {
+        margin-left: 134px;
+    }
+    .details_content .post_author .thumb {
+        margin-left: 170px;
+    }
+    .details_content .post_author .details {
+        margin-left: 40px;
+        margin-top: 120px;
+        width: 420px;
+    }
+    .details_content .post_author .details h1 {
+        margin-left: 110px;
+    }
+    .details_content .post_author .details ul{
+        margin-left: 110px;
+    }
+    /* Details page details_content section css end */
+    /* Details page responsive css start */
 }
 @media (max-width: 575.98px){
     /* home page responsive css start */
@@ -931,6 +1120,91 @@
     }
     /* Contact page contact_input_name section css end */
     /* Contact page responsive css end */
+    /* Details page responsive css start */
+    /* Details page details_banner section css start */
+    #details_banner {
+        height: 300px;
+        background-attachment: unset;
+    }
+    #details_banner .details_banner_content h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #details_banner .details_banner_content p {
+        margin-bottom: 26px;
+    }
+    /* Details page details_banner section css end */
+    /* Details page details_content section css start */
+    .details_content .images span {
+        margin-left: 176px;
+        margin-bottom: 20px;
+    }
+    .details_content .para_img .para_img_p3 {
+        margin-top: -24px;
+        margin-left: 315px;
+    }
+    .details_content .para_img p {
+        line-height: 24px;
+        margin-bottom: 27px;
+    }
+    .details_content .para_img .para_img_p3 .span_2 {
+        width: 500px;
+        display: block;
+        margin-left: -315px;
+        margin-top: 10px;
+    }
+    .details_content .para_img .para_img_p4 span {
+        margin-left: 0px;
+    }
+    .details_content .title h3 {
+        font-size: 1.45rem;
+        margin-bottom: 15px;
+    }
+    .details_content .title p {
+        margin-bottom: 10px;
+    }
+    .details_content .post_box {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .details_content .post_box .prev_post {
+        padding: 20px;
+        width: 530px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .details_content .form_control {
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .details_content .post_bottom .share_links {
+        margin-left: 170px;
+        margin-bottom: 15px;
+    }
+    .details_content .post_bottom .share_links span {
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+    .details_content .post_bottom .tags {
+        margin-left: 134px;
+    }
+    .details_content .post_author .thumb {
+        margin-left: 170px;
+    }
+    .details_content .post_author .details {
+        margin-left: 40px;
+        margin-top: 120px;
+        width: 420px;
+    }
+    .details_content .post_author .details h1 {
+        margin-left: 110px;
+    }
+    .details_content .post_author .details ul{
+        margin-left: 110px;
+    }
+    /* Details page details_content section css end */
+    /* Details page responsive css start */
 }
 @media (max-width: 360px){
     /* home page responsive css start */
@@ -1160,4 +1434,93 @@
     }
     /* Contact page contact_input_name section css end */
     /* Contact page responsive css end */
+    /* Details page responsive css start */
+    /* Details page details_banner section css start */
+    #details_banner {
+        height: 300px;
+        background-attachment: unset;
+    }
+    #details_banner .details_banner_content {
+        top: 70px;
+    }
+    #details_banner .details_banner_content p {
+        margin-bottom: 15px;
+    }
+    #details_banner .details_banner_content ul li a {
+        font-size: 14px;
+        margin-left: 4px;
+    }
+    #details_banner .details_banner_content ul li {
+        font-size: 14px;
+        margin-right: 9px;
+    }
+    #details_banner .details_banner_content ul li:nth-child(3) {
+        margin-left: 2px;
+    }
+    #details_banner .details_banner_content ul li span {
+        margin-left: 5px;
+    }
+    /* Details page details_banner section css end */
+    /* Details page details_content section css start */
+    .details_content .para {
+       margin-top: -30px;
+    }
+    .details_content .para p {
+        margin-bottom: 10px;
+    }
+    .details_content .images span {
+        margin-left: 86px;
+        margin-bottom: 15px;
+    }
+    .details_content .para_img .para_img_content {
+        flex-wrap: wrap;
+    }
+    .details_content .para_img .para_img_p2 {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .details_content .para_img .para_img_p3 {
+        margin-top: -19px;
+        margin-left: 0px;
+    }
+    .details_content .para_img .para_img_p3 .span_2 {
+        width: 336px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .details_content .conclusion h3 {
+        margin-bottom: 15px;
+    }
+    .details_content .conclusion ul {
+        padding-left: 1.5rem;
+    }
+    .details_content .post_bottom .share_links {
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+    .details_content .post_bottom .tags {
+        margin-left: 43px;
+    }
+    .details_content .post_author .thumb {
+        margin-left: 90px;
+    }
+    .details_content .post_author .details {
+        margin-left: 0px;
+        width: 300px;
+    }
+    .details_content .post_author .details h1 {
+        margin-left: 74px;
+        font-size: 24px;
+    }
+    .details_content .post_author .details p {
+        text-align: center;
+    }
+    .details_content .post_author .details ul {
+        margin-left: 70px;
+    }
+    .details_content .post_box .prev_post:last-child {
+        margin-bottom: 40px;
+    }
+    /* Details page details_content section css end */
+    /* Details page responsive css end */
 }
